@@ -1,0 +1,151 @@
+﻿What is UNIX?
+
+It is a portable operating system that is designed for both efficient multi-tasking and mult-user functions. Its portability allows it to run on different hardware platforms. It was written is C and lets user do processing and control under a shell.
+
+What are filters?
+
+The term Filter is often used to refer to any program that can take input from standard input, perform some operation on that input, and write the results to standard output. A Filter is also any program that can be used between two other programs in a pipeline.
+
+What is a typical syntax being followed when issuing commands in shell?
+
+Typical command syntax under the UNIX shell follows the format: <br> Command [-argument] [-argument] [–argument] [file]
+
+Is there a way to erase all files in the current directory, including all its sub-directories, using only one command?
+
+Yes, that is possible. Use “rm –r *” for this purpose. The rm command is for deleting files. The –r option will erase directories and subdirectories, including files within. The asterisk represents all entries.
+
+What is the chief difference between the –v and –x option s to set?
+
+The –v option echoes each command before arguments and variables have been substituted for; the –x option echoes the commands after substitution has taken place.
+
+What is Kernel?
+
+Kernel is the UNIX operating system. It is the master program that controls the computer’s resources, allotting them to different users and to different tasks. However, the kernel doesn’t deal directly with a user. Instead, it starts up a separate, interactive program, called a shell, for each user when he/she logs on.
+
+What is Shell?
+
+A shell acts as an interface between the user and the system. As a command interpreter, the shell takes commands and sets them up for execution.
+
+What are the key features of the Korn Shell?
+
+<ul><li>history mechanism with built-in editor that simulates emacs or vi</li><li>built-in integer arithmetic</li><li>string manipulation capabilities</li><li>command aliasing</li><li>arrays</li><li>job control</li></ul>
+
+What are some common shells and what are their indicators?
+
+<ul><li>sh – Bourne shell</li><li>csh – C SHell</li><li>bash – Bourne Again Shell</li><li>tcsh – enhanced C Shell</li><li>zsh – Z SHell</li><li>ksh – Korn SHell</li></ul>
+
+Differentiate multiuser from multitask.
+
+Multiuser means that more than one person can use the computer at the same time. Multitask means that even a single user can have the computer work on more than one task or program at the same time.
+
+What is command substitution?
+
+Command substitution is one of the steps being performed every time commands are processed by the shell. Commands that are enclosed in backquotes are executed by the shell. This will then replace the standard output of the command and displayed on the command line.
+
+What is a directory?
+
+Every file is assigned to a directory. A directory is a specialized form of file that maintains a list of all files in it.
+
+What is inode?
+
+An inode is an entry created on a section of the disk set aside for a file system. The inode contains nearly all there is to know about a file, which includes the location on the disk where the file starts, the size of the file, when the file was last used, when the file was last changed, what the various read, write and execute permissions are, who owns the file, and other information.
+
+You have a file called tonky in the directory honky. Later you add new material to tonky. What changes take place in the directory, inode, and file?
+
+The directory entry is unchanged, since the name and inode number remain unchanged. In the inode file, the file size, time of last access, and time of last modification are updated. In the file itself, the new material is added.
+
+Describe file systems in UNIX
+
+Understanding file systems in UNIX has to do with knowing how files and inodes are stored on a system. What happens is that a disk or portion of a disk is set aside to store files and the inode entries. The entire functional unit is referred to as a file system.
+
+Differentiate relative path from absolute path.
+
+Relative path refers to the path relative to the current path. Absolute path, on the other hand, refers to the exact path as referenced from the root directory.
+
+Explain the importance of directories in a UNIX system
+
+Files in a directory can actually be a directory itself; it would be called a subdirectory of the original. This capability makes it possible to develop a tree-like structure of directories and files, which is crucial in maintaining an organizational scheme.
+
+Briefly describe the Shell’s responsibilities
+
+<ul><li>program execution</li><li>variable and file name substitution</li><li>I/O redirection</li><li>pipeline hookup</li><li>environment control</li><li>interpreted programming language</li></ul>
+
+What are shell variables?
+
+Shell variables are a combination of a name ( identifier), and an assigned value, which exist within the shell. These variables may have default values, or whose values can be manually set using the appropriate assignment command. Examples of shell variable are PATH, TERM and HOME.
+
+What are the differences among a system call, a library function, and a UNIX command?
+
+A system call is part of the programming for the kernel. A library function is a program that is not part of the kernel but which is available to users of the system. UNIX commands, however, are stand-alone programs; they may incorporate both system calls and library functions in their programming.
+
+What is Bash Shell?
+
+It is a free shell designed to work on the UNIX system. Being the default shell for most UNIX-based systems, it combines features that are available both in the C and Korn Shell.
+
+Enumerate some of the most commonly used network commands in UNIX
+
+<ul><li>telnet – used for remote login</li><li>ping – an echo request for testing connectivity</li><li>su – user switching command</li><li>ftp – file transfer protocol used for copying files</li><li>finger – information gathering command</li></ul>
+
+Differentiate cmp command from diff command.
+
+The cmp command is used mainly to compare two files byte by byte, after which the first encountered mismatch is shown. On the other hand, the diff command is used to indicate the changes that is to be made in order to make the two files identical to each other.
+
+What is the use of -l when listing a directory?
+
+-l, which is normally used in listing command like ls, is used to show files in a long format, one file per line. Long format refers to additional information that is associated with the file, such as ownership, permissions, data and filesize.
+
+What is piping?
+
+Piping, represented by the pipe character “|”, is used to combine two or more commands together. The output of the first command serves as input the next command, and so on.
+
+What is a superuser?
+
+A superuser is a special type user who has open access to all files and commands on a system. Note that the superuser’s login is usually root, and is protected by a so-called root password.
+
+How do you determine and set the path in UNIX?
+
+Each time you enter a command, a variable named PATH or path will define in which directory the shell will search for that command. In cases wherein an error message was returned, the reason maybe that the command was not in your path, or that the command itself does not exist. You can also manually set the path using the “set path = [directory path]” command.
+
+Is it possible to see information about a process while it is being executed?
+
+Every process is uniquely identified by a process identifier. It is possible to view details and status regarding a process by using the ps command.
+
+What is the standard convention being followed when naming files in UNIX?
+
+One important rule when naming files is that characters that have special meaning are not allowed, such as * / & and %. A directory, being a special type of file, follows the same naming convention as that of files. Letters and numbers are used, along with characters like underscore and dot characters.
+
+Why is it that it is not advisable to use root as the default login?
+
+The root account is very important, and with abusive usage, can easily lead to system damage. That’s because safeguards that normally apply to user accounts are not applicable to the root account.
+
+What is the use of the tee command?
+
+The tee command does two things: one is to get data from the standard input and send it to standard output; the second is that it redirects a copy of that input data into a file that was specified.
+
+Differentiate cat command from more command.
+
+When using the cat command to display file contents, large data that does not fit on the screen would scroll off without pausing, therefore making it difficult to view. On the other hand, using the more command is more appropriate in such cases because it will display file contents one screen page at a time.
+
+What is parsing?
+
+Parsing is the process of breaking up of a command line into words. This is made possible by using delimiters and spaces. In the event that tabs or multiple spaces are part of the command, these are eventually replaced by a single space.
+
+What is pid?
+
+Pid is short for Process ID. It is used primarily to identify every process that runs on the UNIX system, whether it runs on the foreground or runs at the background. Every pid is considered unique.
+
+How does the system know where one command ends and another begins?
+
+Normally, the newline character, which is generated by the ENTER or RETURN key, acts as the signpost. However, the semicolon and the ampersand characters can also serve as command terminators.
+
+What is wild-card interpretation?
+
+When a command line contains wild-card characters such as ‘*’ or ‘?’, these are replaced by the shell with a sorted list of files whose pattern matches the input command. Wild-card characters are used to setup a list of files for processing, instead of having it specified one at a time.
+
+What is the output of this command? $who | sort –logfile > newfile
+
+In this command, the output from the command “who” becomes the input to the “sort” command. At the same time, “sort” opens logfile, arranges it together with the output from the command “who”, and places the final sorted output to the file newfile.
+
+How do you switch from any user type to a super user type?
+
+In order to switch from any user type to a superuser, you use the su command. However, you will be asked to key in the correct superuser password before full access privileges are granted to you.
