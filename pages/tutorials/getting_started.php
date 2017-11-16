@@ -1,3 +1,19 @@
+<?php
+function readQuestions(){
+    $questionsFile = fopen("assets/text_files/Top 40 Unix Interview Question.txt", "r") or die("Unable to open file");
+    while(!feof($questionsFile)){
+        $question = fgets($questionsFile);
+        $empty = fgets($questionsFile);
+        $answer = fgets($questionsFile);
+        $empty = fgets($questionsFile);
+        echo "<li><h4>".$question . "</h4>" .  "<p>" . $answer . "</p></li>";
+    }
+}
+function generateQuestions(){
+
+}
+?>
+
 
 <!doctype html>
 <html lang="en">
@@ -10,10 +26,10 @@
     <title>Starter Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="../../assets/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="../../assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -25,31 +41,31 @@
 
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.php">Home<span class="sr-only"></span></a>
+            <li class="nav-item">
+                <a class="nav-link" href="../../index.php">Home<span class="sr-only"></span></a>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="pages/tutorials.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tutorials</a>
+            <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="../../pages/tutorials.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tutorials</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="pages/tutorials/getting_started.php">Getting Started</a>
+                    <a class="dropdown-item" href="../../pages/tutorials/getting_started.php">Getting Started</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="pages/quizzes.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quizzes</a>
+                <a class="nav-link dropdown-toggle" href="../../pages/quizzes.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quizzes</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="pages/quizzes/getting_started_quiz.php">Getting Started Quiz</a>
+                    <a class="dropdown-item" href="../../pages/quizzes/getting_started_quiz.php">Getting Started Quiz</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="pages/references.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">References</a>
+                <a class="nav-link dropdown-toggle" href="../../pages/references.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">References</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="pages/references/interview_questions.php">Interview Questions</a>
+                    <a class="dropdown-item" href="../../pages/references/interview_questions.php">Interview Questions</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="pages/about_unix.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About UNIX</a>
+                <a class="nav-link dropdown-toggle" href="../../pages/about_unix.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About UNIX</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="pages/about_unix/history.php">History</a>
+                    <a class="dropdown-item" href="../../pages/about_unix/history.php">History</a>
                 </div>
             </li>
             <li class="nav-item">
@@ -62,8 +78,8 @@
 <main role="main" class="container">
 
     <div class="starter-template">
-        <h1>Home Page</h1>
-        <p class="lead">Jake's TODO</p>
+        <h1>Getting Started Tutorial</h1>
+        <p class="lead">Aiden's TODO</p>
     </div>
 
 </main><!-- /.container -->
