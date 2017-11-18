@@ -1,12 +1,12 @@
 <?php
     function readQuestions(){
-        $questionsFile = fopen("assets/text_files/Top 40 Unix Interview Question.txt", "r") or die("Unable to open file");
+        $questionsFile = fopen("../../assets/text_files/Top 40 Unix Interview Question.txt", "r") or die("Unable to open file");
         while(!feof($questionsFile)){
             $question = fgets($questionsFile);
             $empty = fgets($questionsFile);
             $answer = fgets($questionsFile);
             $empty = fgets($questionsFile);
-            echo "<li><h4>".$question . "</h4>" .  "<p>" . $answer . "</p></li>";
+            echo "<li><h5>".$question . "</h5>" .  "<p>" . $answer . "</p></li>";
         }
     }
     function generateQuestions(){
@@ -78,9 +78,12 @@
 <main role="main" class="container">
 
     <div class="starter-template">
-        <h1>Interview Questions</h1>
-        <p class="lead">Yan's TODO</p>
+        <h1>Frequently Asked Interview Questions</h1>
+        <p class="lead">If you have a job interview for a job that requires UNIX knowledge, you might want to be
+        be ready to answer some technical questions about UNIX. We provide you with 38 frequently asked
+        questions and their answers. We hope it helps!</p>
     </div>
+    <ol><?php readQuestions();?></ol>
 
 </main><!-- /.container -->
 
