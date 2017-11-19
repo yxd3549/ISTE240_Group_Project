@@ -8,7 +8,6 @@
     $response2 = $_POST["question2"];
     $response3 = $_POST["question3"];
     if (!empty($_POST)){
-        print_r($_POST);
         if ($response1 === "3"){
             $answer1 = "✔";
         }
