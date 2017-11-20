@@ -192,18 +192,6 @@
             </div>
             <div class="timecontainer left">
                 <div class="content">
-                    <h2>1991</h2>
-                    <p>Linus Torvalds writes Linux, an open-source OS kernel inspired by Minix.</p>
-                </div>
-            </div>
-            <div class="timecontainer right">
-                <div class="content">
-                    <h2>1991</h2>
-                    <p>Linus Torvalds writes Linux, an open-source OS kernel inspired by Minix.</p>
-                </div>
-            </div>
-            <div class="timecontainer left">
-                <div class="content">
                     <h2>1992</h2>
                     <p>The Linux kernel is combined with GNU to create the free GNU/Linux operating
                         system, which many refer to as simply "Linux."</p>
