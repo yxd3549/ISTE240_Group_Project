@@ -65,15 +65,14 @@
         <h1>Welcome to the ThunderFox Unix Tutorial!</h1>
         <p class="lead">Unix is a powerful operating system, utilized in many computing fields for a variety of tasks. Using this site, you will be able to develop the skills and know-how to take advantage of Unix's benefits over its less advanced albeit less complicated co-operating systems.</p>
         <h3>Fields that utilize Unix</h3>
-        <ul style="list-style-type: none;">
-            <li>Web Developer(Avg. salary: $87,661)</li>
-            <li>System Administrator(Avg. salary: $71,144)</li>
-            <li>Network Engineer(Avg. salary: $$78,480)</li>
-        </ul>
+        <span>Web Developer(Avg. salary: $87,661)</span><br>
+        <span>System Administrator(Avg. salary: $71,144)</span><br>
+        <span>Network Engineer(Avg. salary: $$78,480)</span><br>
+        <br>
         <h3>Quick links</h3>
-        <p><a href="pages/about_unix/history.php">History of Unix</a></p>
-        <p><a href="pages/tutorials/getting_started.php">Tutorials</a></p>
-        <p><a href="pages/quizzes/getting_started_quiz.php">Quizzes</a></p>
+        <span><a href="pages/about_unix/history.php">History of Unix</a></span><br>
+        <span><a href="pages/tutorials/getting_started.php">Tutorials</a></span><br>
+        <span><a href="pages/quizzes/getting_started_quiz.php">Quizzes</a></span><br>
     </div>
 
 </main><!-- /.container -->
