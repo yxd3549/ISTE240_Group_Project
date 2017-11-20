@@ -63,7 +63,7 @@
 <main role="main" class="container">
 
     <div class="starter-template">
-        <h1>Unix History</h1>
+        <h1>Unix History Timeline</h1><br/><br/>
         <div class="timeline">
             <div class="timecontainer left">
                 <div class="content">
