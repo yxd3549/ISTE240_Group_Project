@@ -14,6 +14,7 @@
 
     <!-- Custom styles for this template -->
     <link href="../../assets/css/style.css" rel="stylesheet">
+    <link href="../../assets/css/timelineStyle.css" rel="stylesheet">
 </head>
 
 <body>
@@ -63,7 +64,20 @@
 
     <div class="starter-template">
         <h1>Unix History</h1>
-        <p class="lead">Louis' TODO</p>
+        <div class="timeline">
+            <div class="container left">
+                <div class="content">
+                    <h2>2017</h2>
+                    <p>Lorem ipsum..</p>
+                </div>
+            </div>
+            <div class="container right">
+                <div class="content">
+                    <h2>2016</h2>
+                    <p>Lorem ipsum..</p>
+                </div>
+            </div>
+        </div>
     </div>
 
 </main><!-- /.container -->
