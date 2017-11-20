@@ -71,11 +71,9 @@
             <li>Network Engineer(Avg. salary: $$78,480)</li>
         </ul>
         <h3>Quick links</h3>
-        <ul style="list-style-type: none;">
-            <li><a href="pages/about_unix/history.php">History of Unix</a></li>
-            <li><a href="pages/tutorials/getting_started.php">Tutorials</a></li>
-            <li><a href="pages/quizzes/getting_started_quiz.php">Quizzes</a></li>
-        </ul>
+        <p><a href="pages/about_unix/history.php">History of Unix</a></p>
+        <p><a href="pages/tutorials/getting_started.php">Tutorials</a></p>
+        <p><a href="pages/quizzes/getting_started_quiz.php">Quizzes</a></p>
     </div>
 
 </main><!-- /.container -->
