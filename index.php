@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Starter Template for Bootstrap</title>
+    <title><?php $title ?> | ThunderFox Unix</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -62,8 +62,20 @@
 <main role="main" class="container">
 
     <div class="starter-template">
-        <h1>Home Page</h1>
-        <p class="lead">Jake's TODO</p>
+        <h1>Welcome to the ThunderFox Unix Tutorial!</h1>
+        <p class="lead">Unix is a powerful operating system, utilized in many computing fields for a variety of tasks. Using this site, you will be able to develop the skills and know-how to take advantage of Unix's benefits over its less advanced albeit less complicated co-operating systems.</p>
+        <h3>Fields that utilize Unix</h3> <small>Some reasons why learning Unix is worth your time!</small>
+        <ul style="list-style-type: none;">
+            <li>Web Developer(Avg. salary: $87,661)</li>
+            <li>System Administrator(Avg. salary: $71,144)</li>
+            <li>Network Engineer(Avg. salary: $$78,480)</li>
+        </ul>
+        <h3>Quick links</h3> <small>to tutorials</small>
+        <ul>
+            <li><a href="pages/about_unix/history.php">History of Unix</a></li>
+            <li><a href="pages/tutorials/getting_started.php">Tutorials</a></li>
+            <li><a href="pages/quizzes/getting_started_quiz.php">Quizzes</a></li>
+        </ul>
     </div>
 
 </main><!-- /.container -->
