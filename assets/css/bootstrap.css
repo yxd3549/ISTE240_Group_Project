@@ -125,6 +125,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+
 }
 
 [tabindex="-1"]:focus {
@@ -5007,7 +5008,6 @@ button.close {
   -webkit-appearance: none;
 }
 
-.modal-open {
   overflow: hidden;
 }
 
@@ -5721,7 +5721,7 @@ a.bg-light:focus, a.bg-light:hover {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #81bcff !important;
 }
 
 a.bg-dark:focus, a.bg-dark:hover {
