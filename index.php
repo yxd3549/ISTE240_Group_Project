@@ -24,8 +24,8 @@
 
 <div class="above-nav" style="background-color: #302ba3;">
     <div class="row">
-        <div class="col-md-12">
-            <img src="assets/media/ThunderFox%20Logo(update).png" alt="Logo" width="701px" height="auto" />
+        <div class="col-md-12 logo">
+            <img src="assets/media/logoReee.png" alt="Logo" width="auto" height="auto" id="logo"/>
         </div>
     </div>
 </div>
