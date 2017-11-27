@@ -24,8 +24,8 @@
 
 <div class="above-nav" style="background-color: #302ba3;">
     <div class="row">
-        <div class="col-md-12">
-            <img src="assets/media/ThunderFox%20Logo(update).png" alt="Logo" width="701px" height="auto" />
+        <div class="col-md-12 logo">
+            <img src="assets/media/logoReee.png" alt="Logo" width="auto" height="auto" id="logo"/>
         </div>
     </div>
 </div>
@@ -50,9 +50,9 @@
                 <a class="nav-link dropdown-toggle" href="pages/quizzes.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quizzes</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
                     <a class="dropdown-item" href="pages/quizzes/getting_started_quiz.php">Getting Started Quiz</a>
-                    <a class="dropdown-item" href="quizzes/getting_started_quiz.php">Command Line Interface</a>
-                    <a class="dropdown-item" href="quizzes/getting_started_quiz.php">File Permissions</a>
-                    <a class="dropdown-item" href="quizzes/getting_started_quiz.php">Directory Structure</a>
+                    <a class="dropdown-item" href="pages/quizzes/getting_started_quiz.php">Command Line Interface</a>
+                    <a class="dropdown-item" href="pages/quizzes/getting_started_quiz.php">File Permissions</a>
+                    <a class="dropdown-item" href="pages/quizzes/getting_started_quiz.php">Directory Structure</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
