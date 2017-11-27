@@ -1,7 +1,12 @@
+<!--template not 100% finished-->
+
 <?php
-    $title = "Common Interview Questions";
-    $rel_path_home = "../../";
-    require_once $rel_path_home . "assets/php/page_start.php";
+    $title = ""; /* Title to be show in tab*/
+    $rel_path_home = ""; /* relative path to the home directory. Ex: "../../ or "" */
+
+    /* Do Not Change*/ require_once $rel_path_home . "assets/php/page_start.php"; /* Do Not Change*/
+
+//    require_once PATH_PHP . "utilities.php"; /* utilities has the quiz grading methods and maybe others in the future, but not all pages use this */
     require_once PATH_PHP . "head.php";
 ?>
 
@@ -9,12 +14,9 @@
 <main role="main" class="container">
 
     <div class="starter-template">
-        <h1>Frequently Asked Interview Questions</h1>
-        <p class="lead">If you have a job interview for a job that requires UNIX knowledge, you might want to be
-        be ready to answer some technical questions about UNIX. We provide you with 38 frequently asked
-        questions and their answers. We hope it helps!</p>
+        <h1> </h1>
+        <p class="lead">C</p>
     </div>
-    <ol><?php readQuestions();?></ol>
 
 </main><!-- /.container -->
 
