@@ -86,7 +86,7 @@
         <span><a href="pages/references_landing.php">References Landing Page</a></span>
         <br>
         <h3>Fields that utilize Unix</h3>
-        <span>Web Developer(Avg. salary: <p style="font-style: bold;">$87,661</p>)</span><br>
+        <span>Web Developer(Avg. salary: $87,661)</span><br>
         <span>System Administrator(Avg. salary: $71,144)</span><br>
         <span>Network Engineer(Avg. salary: $$78,480)</span><br>
     </div>
