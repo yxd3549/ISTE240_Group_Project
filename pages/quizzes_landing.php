@@ -65,9 +65,13 @@
 </nav>
 
 <main role="main" class="container">
-
     <div class="starter-template">
+        <h1 class="page-title">Quizzes</h1>
         <!-- content goes here -->
+        <span><a href="quizzes/getting_started_quiz.php">Getting Started with Unix</a></span><br>
+        <span><a href="quizzes/cli_quiz.php">Command Line Interface</a></span><br>
+        <span><a href="quizzes/directory_structure_quiz.php">Directory Structure</a></span><br>
+        <span><a href="quizzes/file_permissions_quiz.php">File Permissions</a></span><br>
     </div>
 </main><!-- /.container -->
 

@@ -67,7 +67,9 @@
 <main role="main" class="container">
 
     <div class="starter-template">
+        <h1 class="page-title">About Unix</h1>
         <!-- content goes here -->
+        <span><a href="about_unix/history.php">History of Unix</a></span>
     </div>
 </main><!-- /.container -->
 

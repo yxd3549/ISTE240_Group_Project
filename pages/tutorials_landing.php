@@ -67,7 +67,9 @@
 <main role="main" class="container">
 
     <div class="starter-template">
+        <h1 class="page-title">Tutorials</h1>
         <!-- content goes here -->
+        <span><a href="tutorials/getting_started.php">Getting Started</a></span>
     </div>
 </main><!-- /.container -->
 
