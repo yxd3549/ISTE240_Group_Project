@@ -1,7 +1,8 @@
 <?php
 /**
- * COMMENTS
- * YEET
+ * author: jake
+ * Date: 11/27/17
+ * Time: 2:32 PM
  */
 ?>
 <html lang="en">
@@ -11,7 +12,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Homepage | ThunderFox Unix</title>
+    <title>About | ThunderFox Unix</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -29,7 +30,7 @@
 
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="index.php">Home<span class="sr-only"></span></a>
             </li>
             <li class="nav-item dropdown">
@@ -50,7 +51,7 @@
                     <a class="dropdown-item" href="pages/references/interview_questions.php">Interview Questions</a>
                 </div>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown active">
                 <a class="nav-link dropdown-toggle" href="pages/about_unix.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About UNIX</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
                     <a class="dropdown-item" href="pages/about_unix/history.php">History</a>
@@ -66,18 +67,7 @@
 <main role="main" class="container">
 
     <div class="starter-template">
-        <h1>Welcome to ThunderFox Unix!</h1>
-        <p class="lead">Unix is a powerful operating system, utilized in many computing fields for a variety of tasks. Using this site, you will be able to develop the skills and know-how to take advantage of Unix's benefits over its less advanced albeit less complicated co-operating systems.</p>
-        <h3>Quick links</h3>
-        <span><a href="pages/about_landing.php">About Landing Page</a></span><br>
-        <span><a href="pages/tutorials_landing.php">Tutorials Landing Page</a></span><br>
-        <span><a href="pages/quizzes_landing.php">Quizzes Landing Page</a></span><br>
-        <span><a href="pages/references_landing.php">References Landing Page</a></span>
-        <br>
-        <h3>Fields that utilize Unix</h3>
-        <span>Web Developer(Avg. salary: $87,661)</span><br>
-        <span>System Administrator(Avg. salary: $71,144)</span><br>
-        <span>Network Engineer(Avg. salary: $$78,480)</span><br>
+        <!-- content goes here -->
     </div>
 </main><!-- /.container -->
 
