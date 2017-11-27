@@ -25,7 +25,7 @@
 <div class="above-nav" style="background-color: #302ba3;">
     <div class="row">
         <div class="col-md-12">
-            <h2 class="pull-left" style="padding-top: 0.5em; padding-bottom: 0.5em; text-align: center; color: white;">ThunderFox Unix</h2>
+            <img src="assets/media/ThunderFox%20Logo(update).png" alt="Logo" width="701px" height="auto" />
         </div>
     </div>
 </div>
