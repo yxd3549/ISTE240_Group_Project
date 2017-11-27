@@ -17,3 +17,6 @@ body {
     display: inline-block;
     float:none;
 }
+.page-title {
+    padding-top: 10px;
+}
