@@ -22,7 +22,15 @@
 
 <body>
 
-<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+<div class="above-nav" style="background-color: #302ba3;">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="pull-left" style="padding-top: 0.5em; padding-bottom: 0.5em; text-align: center; color: white;">ThunderFox Unix</h2>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
