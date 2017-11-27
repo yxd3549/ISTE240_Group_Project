@@ -1,3 +1,33 @@
+<?php
+$answers = array("3", "2", "1");
+$answer1 = "";
+$answer2 = "";
+$answer3 = "";
+$response1 = $_POST["question1"];
+$response2 = $_POST["question2"];
+$response3 = $_POST["question3"];
+if (!empty($_POST) && !empty($response1) && !empty($response2) && !empty($response3)){
+    if ($response1 === $answers[0]){
+        $answer1 = "✔";
+    }
+    else{
+        $answer1 = "❌";
+    }
+    if ($response2 === $answers[1]){
+        $answer2 = "✔";
+    }
+    else{
+        $answer2 = "❌";
+    }
+    if ($response3 === $answers[2]){
+        $answer3 = "✔";
+    }
+    else{
+        $answer3 = "❌";
+    }
+}
+?>
+
 <script>
     function verify(){
         var feedback = document.getElementById("feedback");
@@ -20,43 +50,6 @@
         return true;
     }
 </script>
-
-<?php
-$answers = array("3", "2", "1");
-$answer1 = "";
-$answer2 = "";
-$answer3 = "";
-$response1 = $_POST["question1"];
-$response2 = $_POST["question2"];
-$response3 = $_POST["question3"];
-$perfect = true;
-if (!empty($_POST) && !empty($response1) && !empty($response2) && !empty($response3)){
-    if ($response1 === $answers[0]){
-        $answer1 = "✔";
-    }
-    else{
-        $answer1 = "❌";
-        $perfect = false;
-    }
-    if ($response2 === $answers[1]){
-        $answer2 = "✔";
-    }
-    else{
-        $answer2 = "❌";
-        $perfect = false;
-    }
-    if ($response3 === $answers[2]){
-        $answer3 = "✔";
-    }
-    else{
-        $answer3 = "❌";
-        $perfect = false;
-    }
-}
-else{
-    return false;
-}
-?>
 
 
 
