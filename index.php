@@ -50,6 +50,9 @@
                 <a class="nav-link dropdown-toggle" href="pages/quizzes.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quizzes</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
                     <a class="dropdown-item" href="pages/quizzes/getting_started_quiz.php">Getting Started Quiz</a>
+                    <a class="dropdown-item" href="quizzes/getting_started_quiz.php">Command Line Interface</a>
+                    <a class="dropdown-item" href="quizzes/getting_started_quiz.php">File Permissions</a>
+                    <a class="dropdown-item" href="quizzes/getting_started_quiz.php">Directory Structure</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -83,7 +86,7 @@
         <span><a href="pages/references_landing.php">References Landing Page</a></span>
         <br>
         <h3>Fields that utilize Unix</h3>
-        <span>Web Developer(Avg. salary: $87,661)</span><br>
+        <span>Web Developer(Avg. salary: <p style="font-style: bold;">$87,661</p>)</span><br>
         <span>System Administrator(Avg. salary: $71,144)</span><br>
         <span>Network Engineer(Avg. salary: $$78,480)</span><br>
     </div>
