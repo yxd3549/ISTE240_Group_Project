@@ -162,10 +162,10 @@ if (!empty($_POST) && !empty($response1) && !empty($response2) && !empty($respon
 <!-- Placed at the end of the document so the pages load faster -->
 
 <div id="footer">
-    blah blah blah
+    This project was created by ThunderFox
     <p>
-        blah blah blah<br>
-        Blah blah blah.
+        Jake      | Louis  |  Abhigyan<br>
+        Yancarlos | Bakari |  Aiden
     </p>
 </div>
 <!-- LAYER TWO -->

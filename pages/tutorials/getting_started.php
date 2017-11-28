@@ -172,10 +172,10 @@
 </main><!-- /.container -->
 
 <div id="footer">
-    blah blah blah
+    This project was created by ThunderFox
     <p>
-        blah blah blah<br>
-        Blah blah blah.
+        Jake      | Louis  |  Abhigyan<br>
+        Yancarlos | Bakari |  Aiden
     </p>
 </div>
 <!-- LAYER TWO -->

@@ -81,6 +81,17 @@
 
 </main><!-- /.container -->
 
+<div id="footer">
+    This project was created by ThunderFox
+    <p>
+        Jake      | Louis  |  Abhigyan<br>
+        Yancarlos | Bakari |  Aiden
+    </p>
+</div>
+<!-- LAYER TWO -->
+<div id="secondfooter">
+    Created for ISTE 240 Group project
+</div>
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
