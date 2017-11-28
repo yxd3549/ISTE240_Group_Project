@@ -65,6 +65,8 @@
                 <a class="nav-link dropdown-toggle" href="pages/about_unix.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About UNIX</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
                     <a class="dropdown-item" href="pages/about_unix/history.php">History</a>
+                    <a class="dropdown-item" href="pages/about_unix/flavors.php">Flavors/Versions of Unix</a>
+                    <a class="dropdown-item" href="pages/about_unix/uses.php">Why use Unix?</a>
                 </div>
             </li>
             <li class="nav-item">
@@ -80,15 +82,14 @@
         <h1>Welcome to ThunderFox Unix!</h1>
         <p class="lead">Unix is a powerful operating system, utilized in many computing fields for a variety of tasks. Using this site, you will be able to develop the skills and know-how to take advantage of Unix's benefits over its less advanced albeit less complicated co-operating systems.</p>
         <h3>Quick links</h3>
-        <span><a href="pages/about_landing.php">About Landing Page</a></span><br>
-        <span><a href="pages/tutorials_landing.php">Tutorials Landing Page</a></span><br>
-        <span><a href="pages/quizzes_landing.php">Quizzes Landing Page</a></span><br>
-        <span><a href="pages/references_landing.php">References Landing Page</a></span>
-        <br>
-        <h3>Fields that utilize Unix</h3>
-        <span>Web Developer(Avg. salary: $87,661)</span><br>
-        <span>System Administrator(Avg. salary: $71,144)</span><br>
-        <span>Network Engineer(Avg. salary: $$78,480)</span><br>
+        <a href="pages/about_landing.php"><img class="land-image" src="assets/media/history_thumb.png" alt="About" title="About Unix" width=400px height="auto"/></a>
+        <!--<p>About</p> -->
+        <a href="pages/tutorials_landing.php"><img class="land-image" src="assets/media/tutorial_thumb.png" alt="Tutorials" title="Tutorials" width="400px" height="auto"/></a>
+        <!--<p>Tutorials</p>-->
+        <a href="pages/quizzes_landing.php"><img class="land-image" src="assets/media/quiz_thumb.png" alt="Quizzes" title="Quizzes" width="400px" height="auto"/></a>
+        <!--<p>Quizzes</p>-->
+        <a href="pages/references_landing.php"><img class="land-image" src="assets/media/ref_thumb.png" alt="References" title="References" width="400px" height="auto"/></a>
+        <!--<p>References</p>-->
     </div>
 </main><!-- /.container -->
 
