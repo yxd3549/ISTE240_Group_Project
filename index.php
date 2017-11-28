@@ -82,30 +82,14 @@
         <h1>Welcome to ThunderFox Unix!</h1>
         <p class="lead">Unix is a powerful operating system, utilized in many computing fields for a variety of tasks. Using this site, you will be able to develop the skills and know-how to take advantage of Unix's benefits over its less advanced albeit less complicated co-operating systems.</p>
         <h3>Quick links</h3>
-        <div class="home-landing">
-            <figure>
-                <a href="pages/about_landing.php"><img src="assets/media/history_thumb.png" alt="About Landing Page" width="30%" height="auto"/></a>
-                <figcaption>About Landing Page</figcaption>
-            </figure>
-        </div>
-        <div class="home-landing">
-            <figure>
-                <a href="pages/tutorials_landing.php"><img src="assets/media/tutorial_thumb.png" alt="Tutorial Landing Page" width="30%" height="auto"/></a>
-                <figcaption>Tutorial Landing Page</figcaption>
-            </figure>
-        </div>
-        <div class="home-landing">
-            <figure>
-                <a href="pages/quizzes_landing.php"><img src="assets/media/quiz_thumb.png" alt="Quiz Landing Page" width="30%" height="auto"/></a>
-                <figcaption>Quiz Landing Page</figcaption>
-            </figure>
-        </div>
-        <div class="home-landing">
-            <figure>
-                <a href="pages/references_landing.php"><img src="assets/media/ref_thumb.png" alt="References Landing Page" width="30%" height="auto"/></a>
-                <figcaption>References Landing Page</figcaption>
-            </figure>
-        </div>
+        <a href="pages/about_landing.php"><img class="land-image" src="assets/media/history_thumb.png" alt="About" width="50%" height="auto"/></a>
+        <p>About</p>
+        <a href="pages/tutorials_landing.php"><img class="land-image" src="assets/media/tutorial_thumb.png" alt="Tutorials" width="50%" height="auto"/></a>
+        <p>Tutorials</p>
+        <a href="pages/quizzes_landing.php"><img class="land-image" src="assets/media/quiz_thumb.png" alt="Quizzes" width="50%" height="auto"/></a>
+        <p>Quizzes</p>
+        <a href="pages/references_landing.php"><img class="land-image" src="assets/media/ref_thumb.png" alt="References" width="50%" height="auto"/></a>
+        <p>References</p>
     </div>
 </main><!-- /.container -->
 

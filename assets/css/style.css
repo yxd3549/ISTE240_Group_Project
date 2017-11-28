@@ -25,7 +25,8 @@ body {
     display: inline-block;
     width: 50%;
 }
-.home-landing {
+.land-image {
     display: inline-block !important;
-    width: 25%;
+    border: 2px solid black;
+    border-radius: 10px;
 }
