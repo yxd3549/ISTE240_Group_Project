@@ -65,6 +65,8 @@
                 <a class="nav-link dropdown-toggle" href="pages/about_unix.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About UNIX</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
                     <a class="dropdown-item" href="pages/about_unix/history.php">History</a>
+                    <a class="dropdown-item" href="pages/about_unix/flavors.php">Flavors/Versions of Unix</a>
+                    <a class="dropdown-item" href="pages/about_unix/uses.php">Why use Unix?</a>
                 </div>
             </li>
             <li class="nav-item">
