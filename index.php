@@ -80,10 +80,10 @@
         <h1>Welcome to ThunderFox Unix!</h1>
         <p class="lead">Unix is a powerful operating system, utilized in many computing fields for a variety of tasks. Using this site, you will be able to develop the skills and know-how to take advantage of Unix's benefits over its less advanced albeit less complicated co-operating systems.</p>
         <h3>Quick links</h3>
-        <span><a href="pages/about_landing.php">About Landing Page</a></span><br>
-        <span><a href="pages/tutorials_landing.php">Tutorials Landing Page</a></span><br>
-        <span><a href="pages/quizzes_landing.php">Quizzes Landing Page</a></span><br>
-        <span><a href="pages/references_landing.php">References Landing Page</a></span>
+        <span><a href="pages/about_landing.php"><img src="assets/media/history_thumb.png" alt="About Landing Page" /></a></span><br>
+        <span><a href="pages/tutorials_landing.php"><img src="assets/media/tutorial_thumb.png" alt="Tutorial Landing Page"/></a></span><br>
+        <span><a href="pages/quizzes_landing.php"><img src="assets/media/quiz_thumb.png" alt="Quiz Landing Page"/></a></span><br>
+        <span><a href="pages/references_landing.php"><img src="assets/media/ref_thumb.png" alt="References Landing Page"/></a></span>
         <br>
         <h3>Fields that utilize Unix</h3>
         <span>Web Developer(Avg. salary: $87,661)</span><br>
