@@ -1,57 +1,3 @@
-<?php
-$answers = array("3", "2", "1");
-$answer1 = "";
-$answer2 = "";
-$answer3 = "";
-$response1 = $_POST["question1"];
-$response2 = $_POST["question2"];
-$response3 = $_POST["question3"];
-if (!empty($_POST) && !empty($response1) && !empty($response2) && !empty($response3)){
-    if ($response1 === $answers[0]){
-        $answer1 = "✔";
-    }
-    else{
-        $answer1 = "❌";
-    }
-    if ($response2 === $answers[1]){
-        $answer2 = "✔";
-    }
-    else{
-        $answer2 = "❌";
-    }
-    if ($response3 === $answers[2]){
-        $answer3 = "✔";
-    }
-    else{
-        $answer3 = "❌";
-    }
-}
-?>
-
-<script>
-    function verify(){
-        var feedback = document.getElementById("feedback");
-        for (var i = 0; i < 3; i++){
-            var radioChecked = false;
-            var question_number = i + 1;
-            var question = document.getElementsByName("question" + question_number);
-            console.log("question" + i);
-            for (var j = 0; j < question.length; j++){
-                if (question[j].checked) {
-                    radioChecked = true;
-                    break;
-                }
-            }
-            if (!radioChecked){
-                feedback.innerHTML = "Please answer all the questions."
-                return false;
-            }
-        }
-        return true;
-    }
-</script>
-
-
 
 <!doctype html>
 <html lang="en">
@@ -68,6 +14,7 @@ if (!empty($_POST) && !empty($response1) && !empty($response2) && !empty($respon
 
     <!-- Custom styles for this template -->
     <link href="../../assets/css/style.css" rel="stylesheet">
+    <link href="../../assets/css/timelineStyle.css" rel="stylesheet">
 </head>
 
 <body>
@@ -77,8 +24,8 @@ if (!empty($_POST) && !empty($response1) && !empty($response2) && !empty($respon
             <img src="../../assets/media/logoReee.png" alt="Logo" width="auto" height="auto" id="logo"/>
         </div>
     </div>
-</div>
 
+</div>
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -95,7 +42,7 @@ if (!empty($_POST) && !empty($response1) && !empty($response2) && !empty($respon
                     <a class="dropdown-item" href="../../pages/tutorials/getting_started.php">Getting Started</a>
                 </div>
             </li>
-            <li class="nav-item dropdown active">
+            <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="../../pages/quizzes.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quizzes</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
                     <a class="dropdown-item" href="../../pages/quizzes/getting_started_quiz.php">Getting Started Quiz</a>
@@ -107,7 +54,7 @@ if (!empty($_POST) && !empty($response1) && !empty($response2) && !empty($respon
                     <a class="dropdown-item" href="../../pages/references/interview_questions.php">Interview Questions</a>
                 </div>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown active">
                 <a class="nav-link dropdown-toggle" href="../../pages/about_unix.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About UNIX</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
                     <a class="dropdown-item" href="../../pages/about_unix/history.php">History</a>
@@ -123,36 +70,8 @@ if (!empty($_POST) && !empty($response1) && !empty($response2) && !empty($respon
 <main role="main" class="container">
 
     <div class="starter-template">
-        <h1>Getting Started Quiz</h1>
-        <p class="lead">How much of the getting started process do you remember?</p>
+        <h1>Why Use Linux?</h1>
     </div>
-    <p id="feedback" style="color: red"></p>
-    <form method="post" onsubmit="return verify();">
-        <ol>
-            <li>
-                <span style="font-weight: bold">What's the most popular way to access the UNIX command line interface
-                from a Windows PC?</span><?= $answer1 ?><br>
-                &emsp;<label for="1-1"><input type="radio" id="1-1" name="question1" value="1" <?=($response1 === "1" ? "checked" : "");?>>Through the Windows Command Prompt</label><br>
-                &emsp;<label for="1-2"><input type="radio" id="1-2" name="question1" value="2" <?=($response1 === "2" ? "checked" : "");?>>What do you mean? You can't access UNIX through Windows</label><br>
-                &emsp;<label for="1-3"><input type="radio" id="1-3" name="question1" value="3" <?=($response1 === "3" ? "checked" : "");?>>Using Putty</label><br>
-            </li>
-
-            <li>
-                <span style="font-weight: bold">How can you access the UNIX command line interface from a Mac?</span><?= $answer2 ?><br>
-                &emsp;<label for="2-1"><input type="radio" id="2-1" name="question2" value="1" <?=($response2 === "1" ? "checked" : "");?>>Using Putty</label><br>
-                &emsp;<label for="2-2"><input type="radio" id="2-2" name="question2" value="2" <?=($response2 === "2" ? "checked" : "");?>>Typing 'ssh [hostname]' in the command line</label><br>
-                &emsp;<label for="2-3"><input type="radio" id="2-3" name="question2" value="3" <?=($response2 === "3" ? "checked" : "");?>>Using MobaXterm</label><br>
-            </li>
-
-            <li>
-                <span style="font-weight: bold">What happens if you type your username wrong when trying to ssh using Putty?</span><?= $answer3 ?><br>
-                &emsp;<label for="3-1"><input type="radio" id="3-1" name="question3" value="1" <?=($response3 === "1" ? "checked" : "");?>>You have to close Putty and open it again</label><br>
-                &emsp;<label for="3-2"><input type="radio" id="3-2" name="question3" value="2" <?=($response3 === "2" ? "checked" : "");?>>It prevents you from logging in for 5 minutes</label><br>
-                &emsp;<label for="3-3"><input type="radio" id="3-3" name="question3" value="3" <?=($response3 === "3" ? "checked" : "");?>>It asks for a valid username</label><br>
-            </li>
-        </ol>
-        &emsp;<input type="submit">
-    </form>
 
 </main><!-- /.container -->
 

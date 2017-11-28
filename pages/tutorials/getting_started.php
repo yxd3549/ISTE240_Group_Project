@@ -16,8 +16,15 @@
 </head>
 
 <body>
+<div class="above-nav" style="background-color: #302ba3;">
+    <div class="row">
+        <div class="col-md-12 logo">
+            <img src="../../assets/media/logoReee.png" alt="Logo" width="auto" height="auto" id="logo"/>
+        </div>
+    </div>
+</div>
 
-<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -79,17 +86,17 @@
         <ul>
         <li>Once your Unix system is ready to accept an SSH connection and Putty has been downloaded on your remote machine, follow this tutorial.
                 When you start PuTTY, you will see a dialog box. This dialog box allows you to control everything PuTTY can do.</li>
-            <img src="../../assets/media/dialog_box.png" alt="Starting Box" height="440" width="450">
+            <img src="../../assets/media/dialog_box.PNG" alt="Starting Box" height="440" width="450">
 
         <li>You don't usually need to change most of the configuration options. To start the simplest kind of session, all you need to do is to enter a few basic parameters.
             </li>
-        <img src="../../assets/media/dialog_box1.png" alt="Starting Box" height="440" width="450">
+        <img src="../../assets/media/dialog_box1.PNG" alt="Starting Box" height="440" width="450">
 
         <li>Now select a login protocol to use, from the ‘Connection type’ buttons. For a login session, you should select SSH.When you change the selected protocol,
                 the number in the ‘Port’ box will change. This is normal: it happens because the various login services are usually provided on different network ports by the server machine.
                 Most servers will use the standard port numbers, so you will not need to change the port setting.
             </li>
-         <img src="../../assets/media/dialog_box2.png" alt="Starting Box" height="440" width="450">
+         <img src="../../assets/media/dialog_box2.PNG" alt="Starting Box" height="440" width="450">
 
             <li>Once you have filled in the ‘Host Name’, ‘Protocol’, and possibly ‘Port’ settings, you are ready to connect. Press the ‘Open’ button at the bottom of the dialog box, and PuTTY will begin trying to connect you to the server.
                 </li></ul>
@@ -98,7 +105,7 @@
         <ul><li>
         If you are using SSH to connect to a server for the first time, you will probably see a message looking something like this:
         </li>
-            <img src="../../assets/media/warning.png" alt="Warning Box" height="293" width="433">
+            <img src="../../assets/media/warning.PNG" alt="Warning Box" height="293" width="433">
 
            <li>This is a feature of the SSH protocol. It is designed to protect you against a network attack known as spoofing: secretly redirecting your connection to a different computer,
                     so that you send your password to the wrong machine. Using this technique, an attacker would be able to learn the password that guards your login account, and could then log in as if
@@ -122,7 +129,7 @@
             <li> Enter the username and the password, and the server should grant you access and begin your session.</li>
             <li>If you are using SSH, be careful not to type your username wrongly, because you will not have a chance to correct it after you press Return; many SSH servers
                 do not permit you to make two login attempts using different usernames. If you type your username wrongly, you must close PuTTY and start again.</li>
-            <img src="../../assets/media/login.png" alt="Login" height="417" width="665">
+            <img src="../../assets/media/login.PNG" alt="Login" height="417" width="665">
 
 
         </ol>
@@ -131,14 +138,14 @@
             <li>
                 After you log in to the server, you will be presented with a prompt. This prompt can be considered the equivalent to typing directly into the command line of the Unix machine.
                     All commands carried out on this emulation will directly result in the commands running on the machine.
-                <img src="../../assets/media/prompt.png" alt="prompt" height="53" width="640">
+                <img src="../../assets/media/prompt.PNG" alt="prompt" height="53" width="640">
             </li>
         </ul>
         <h6>Logging Out</h6>
         <ul><li>
                     When you have finished your session, you should log out by typing the server's own logout command. This might vary between servers; if in doubt, try logout or exit.
                 When the server processes your logout command, the PuTTY window should close itself automatically.</li>
-                <img src="../../assets/media/logout.png" alt="prompt" height="53" width="640">
+                <img src="../../assets/media/logout.PNG" alt="prompt" height="53" width="640">
 
                 <li>You can close a PuTTY session using the Close button in the window border, but this might confuse the server - a bit like hanging up a telephone unexpectedly in the middle of a conversation.
                 We recommend you do not do this unless the server has stopped responding to you and you cannot close the window any other way.</li>
@@ -164,10 +171,24 @@
     </div>
 </main><!-- /.container -->
 
+<div id="footer">
+    This project was created by ThunderFox
+    <p>
+        Jake      | Louis  |  Abhigyan<br>
+        Yancarlos | Bakari |  Aiden
+    </p>
+</div>
+<!-- LAYER TWO -->
+<div id="secondfooter">
+    Created for ISTE 240 Group project
+</div>
+
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
+
+
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
