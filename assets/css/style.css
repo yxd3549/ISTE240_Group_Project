@@ -23,3 +23,16 @@ We don't want it center-aligned for mobile*/
     display: inline-block;
     float:none;
 }
+.page-title {
+    padding-top: 10px;
+}
+.col-md-12 logo {
+    margin: 0 auto;
+    display: inline-block;
+    width: 50%;
+}
+.land-image {
+    display: inline-block !important;
+    border: 2px solid black;
+    border-radius: 10px;
+}
