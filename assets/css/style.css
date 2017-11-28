@@ -26,5 +26,6 @@ body {
     width: 50%;
 }
 .home-landing {
-    display: inline-flex;
+    display: inline-block !important;
+    width: 25%;
 }
