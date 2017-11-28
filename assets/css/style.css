@@ -42,15 +42,32 @@ body {
     -webkit-filter: brightness(90%);
 }
 
+/* Footer Layer 1 Style */
 #footer {
-    background-color: #ff8135;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 50px;
+    background-color: #ff955b;
     width: 100%;
-    overflow:hidden;
     color: white;
-    padding: 1em;
+    padding-top: 20px;
+    height: 100px;
+    bottom: 0;
+    padding-left: 1em;
 }
+
+/* Footer Layer 2 Style */
+#secondfooter {
+    background-color: #ff6d00;
+    width: 100%;
+    color: white;
+    height: 60px;
+    padding-top: 20px;
+    bottom: 0;
+    position: relative;
+    padding-left: 1em;
+}
+
+main {
+    min-height: 100%;
+}
+
+
 
