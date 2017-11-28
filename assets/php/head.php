@@ -9,10 +9,10 @@
     <title><?=$title?> | ThunderFox Unix</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="<?=PATH_CSS?>bootstrap.css" rel="stylesheet">
+    <link href="<?=URL_CSS?>bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="<?=PATH_CSS?>style.css" rel="stylesheet">
+    <link href="<?=URL_CSS?>style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -25,37 +25,37 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="<?=PATH?>index.php">Home<span class="sr-only"></span></a>
+                <a class="nav-link" href="<?=URL?>index.php">Home<span class="sr-only"></span></a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="<?=PATH_PAGES?>tutorials.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tutorials</a>
+                <a class="nav-link dropdown-toggle" href="<?=URL_PAGES?>tutorials.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tutorials</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="<?=PATH_PAGES?>tutorials/getting_started.php">Getting Started</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/getting_started.php">Getting Started</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="<?=PATH_PAGES?>quizzes.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quizzes</a>
+                <a class="nav-link dropdown-toggle" href="<?=URL_PAGES?>quizzes.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quizzes</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="<?=PATH_PAGES?>quizzes/cli_quiz.php">Command Line Interface Quiz</a>
-                    <a class="dropdown-item" href="<?=PATH_PAGES?>quizzes/directory_structure_quiz.php">Directory Structure Quiz</a>
-                    <a class="dropdown-item" href="<?=PATH_PAGES?>quizzes/file_permissions_quiz.php">File Permissions Quiz</a>
-                    <a class="dropdown-item" href="<?=PATH_PAGES?>quizzes/getting_started_quiz.php">Getting Started Quiz</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/cli_quiz.php">Command Line Interface Quiz</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/directory_structure_quiz.php">Directory Structure Quiz</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/file_permissions_quiz.php">File Permissions Quiz</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/getting_started_quiz.php">Getting Started Quiz</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="<?=PATH_PAGES?>references.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">References</a>
+                <a class="nav-link dropdown-toggle" href="<?=URL_PAGES?>references.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">References</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="<?=PATH_PAGES?>references/interview_questions.php">Interview Questions</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>references/interview_questions.php">Interview Questions</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="<?=PATH_PAGES?>about_unix.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About UNIX</a>
+                <a class="nav-link dropdown-toggle" href="<?=URL_PAGES?>about_unix.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About UNIX</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="<?=PATH_PAGES?>about_unix/history.php">History</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/history.php">History</a>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="<?=PATH_PAGES?>about_us.php">About Us<span class="sr-only"></span></a>
+                <a class="nav-link" href="<?=URL_PAGES?>about_us.php">About Us<span class="sr-only"></span></a>
             </li>
         </ul>
     </div>
