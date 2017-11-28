@@ -7,21 +7,19 @@ body {
     text-align: center;
 }
 
+.row{
+    margin: 0;
+}
+.col-md-12.logo{
+    margin: 0 !important;
+}
+
 .page-title {
     padding-top: 10px;
 }
 
-/* Put in a media query for desktop.
-We don't want it center-aligned for mobile*/
-.navbar-nav {
-    float:none;
-    margin:0 auto;
-    display: block;
-}
-
-.navbar-nav > li {
-    display: inline-block;
-    float:none;
+.collapse.navbar-collapse {
+    margin-left: 20px;
 }
 .page-title {
     padding-top: 10px;
@@ -32,7 +30,14 @@ We don't want it center-aligned for mobile*/
     width: 50%;
 }
 .land-image {
+    margin: 5px;
     display: inline-block !important;
-    border: 2px solid black;
+    border: .5px solid black;
     border-radius: 10px;
+    -webkit-filter: brightness(100%);
+    box-shadow: 2px 2px 5px 1px gray;
+}
+
+.land-image:hover {
+    -webkit-filter: brightness(70%);
 }
