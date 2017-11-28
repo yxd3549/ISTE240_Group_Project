@@ -50,9 +50,9 @@
                 <a class="nav-link dropdown-toggle" href="pages/quizzes.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quizzes</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
                     <a class="dropdown-item" href="pages/quizzes/getting_started_quiz.php">Getting Started Quiz</a>
-                    <a class="dropdown-item" href="pages/quizzes/getting_started_quiz.php">Command Line Interface</a>
-                    <a class="dropdown-item" href="pages/quizzes/getting_started_quiz.php">File Permissions</a>
-                    <a class="dropdown-item" href="pages/quizzes/getting_started_quiz.php">Directory Structure</a>
+                    <a class="dropdown-item" href="pages/quizzes/cli_quiz.php">Command Line Interface</a>
+                    <a class="dropdown-item" href="pages/quizzes/file_permissions_quiz.php">File Permissions</a>
+                    <a class="dropdown-item" href="pages/quizzes/directory_structure_quiz.php">Directory Structure</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -83,7 +83,7 @@
         <p class="lead">Unix is a powerful operating system, utilized in many computing fields for a variety of tasks. Using this site, you will be able to develop the skills and know-how to take advantage of Unix's benefits over its less advanced albeit less complicated co-operating systems.</p>
         <h3>Quick links</h3>
         <a href="pages/about_landing.php"><img class="land-image" src="assets/media/history_thumb.png" alt="About" title="About Unix" width=400px height="auto"/></a>
-        <!--<p>About</p> -->
+        <!--<span>About</span> -->
         <a href="pages/tutorials_landing.php"><img class="land-image" src="assets/media/tutorial_thumb.png" alt="Tutorials" title="Tutorials" width="400px" height="auto"/></a>
         <!--<p>Tutorials</p>-->
         <a href="pages/quizzes_landing.php"><img class="land-image" src="assets/media/quiz_thumb.png" alt="Quizzes" title="Quizzes" width="400px" height="auto"/></a>
