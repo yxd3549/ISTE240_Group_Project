@@ -94,6 +94,10 @@
     </div>
 </main><!-- /.container -->
 
+<section id="footer">
+    &copy - Abhi, Jake, Louis, Aiden, Yan, Bakari
+</section>
+
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
