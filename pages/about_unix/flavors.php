@@ -40,7 +40,7 @@
     <div class="starter-template">
         <p class="lead">
             Then of course there’s the Linux flavor of Unix, by far the most popular base variation and what most
-            consumer Unix-like platforms are derived from. Learn more about Linux <a href="http://www.putty.org/">here.</a>
+            consumer Unix-like platforms are derived from. Learn more about Linux <a href="<?=URL_PAGES?>about_unix/linux.php">here.</a>
         </p>
     </div>
 
