@@ -60,6 +60,7 @@
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
                     <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/history.php">History</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/flavors.php">Flavors of Unix</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/linux.php">Linux</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/uses.php">Uses of Unix</a>
                 </div>
             </li>
