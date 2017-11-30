@@ -15,21 +15,21 @@
             which are commonly referred to as distributions. They share the same OS software under the hood
             (Linux) but they all implement it differently and come with variations of overlay software that
             changes the user experience and system processes. </p>
-        <p class="lead">
-            Some popular distributions of the Linux kernel include:</p>
     </div>
     <div>
+        <p class="lead">
+            Some popular distributions of the Linux kernel include:</p>
         <ul>
             <li>OpenSUSE</li>
             <li>Fedora</li>
             <li>Red Hat</li>
             <li>CentOS (based on Red Hat)</li>
             <li>Debian GNU/Linux, which is a widely used Linux distribution from which other consumer distributions like Ubuntu are
-                based off of</li>
+                based off of.</li>
         </ul>
     </div>
-    <div class="starter-template">
-        <p class="lead">
+    <div>
+        <p class="lead" style="padding-top: 2em">
             Every top level flavor and lower level distribution usually has countless variations and OS types that share
             similarities and differences. It would be impossible to go through each and every single version of Unix-Like
             systems available, but what is important to note is that each version is in one way or another based off of the
