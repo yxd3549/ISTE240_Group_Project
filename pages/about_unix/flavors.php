@@ -13,8 +13,9 @@
             The Unix system is the original open operating system that was developed, however there
             are multiple versions and sub-versions of operating systems based on the Unix system that
             are used in a variety of applications, commonly known as the various ‘flavors’ of Unix.
-            A list of the most common high level flavors of unix found in the industry include:
-        </p>
+            A list of the most common high level flavors of unix found in the industry include:</p>
+    </div>
+    <div>
         <ul>
            <li>AIX by IBM</li>
            <li>BSD/OS (BSDi) by Wind River</li>
@@ -35,7 +36,9 @@
            <li>OpenLinux by Caldera Systems, Inc.</li>
            <li>Openstep by Apple Computer, Inc.</li>
         </ul>
-        <p>
+    </div>
+    <div class="starter-template">
+        <p class="lead">
             Then of course there’s the Linux flavor of Unix, by far the most popular base variation and what most
             consumer Unix-like platforms are derived from. Learn more about Linux <a href="http://www.putty.org/">here.</a>
         </p>
