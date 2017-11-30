@@ -13,6 +13,7 @@
 
     <!-- Custom styles for this template -->
     <link href="<?=URL_CSS?>style.css" rel="stylesheet">
+    <link href="<?=URL_CSS?>timelineStyle.css" rel="stylesheet">
 </head>
 
 <body>
