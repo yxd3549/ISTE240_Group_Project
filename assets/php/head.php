@@ -20,7 +20,7 @@
 <div class="above-nav" style="background-color: #302ba3;">
     <div class="row">
         <div class="col-md-12 logo">
-            <img src="<?=URL_MEDIA?>logoReee.png" alt="Logo" width="auto" height="auto" id="logo"/>
+            <a href="<?=URL?>index.php"><img src="<?=URL_MEDIA?>logoReee.png" alt="Logo" width="auto" height="auto" id="logo"/></a>
         </div>
     </div>
 </div>
@@ -59,6 +59,8 @@
                 <a class="nav-link dropdown-toggle" href="<?=URL_PAGES?>about_unix.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About UNIX</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
                     <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/history.php">History</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/flavors.php">Flavors of Unix</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/uses.php">Uses of Unix</a>
                 </div>
             </li>
             <li class="nav-item">

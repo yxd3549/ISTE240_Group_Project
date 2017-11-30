@@ -18,7 +18,7 @@
     <div class="starter-template">
         <h1 class="page-title">References</h1>
         <!-- content goes here -->
-        <span><a href="references/interview_questions.php">Mock Interview Questions</a></span>
+        <span><a href="<?=URL_PAGES?>references/interview_questions.php">Mock Interview Questions</a></span>
     </div>
 </main><!-- /.container -->
 
