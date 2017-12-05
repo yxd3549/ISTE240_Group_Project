@@ -1,5 +1,17 @@
+html, body{
+    height: 100%;
+}
+
 body {
-    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    flex: 1 0 auto;
+}
+nav{
+    flex: 1 0 auto;
 }
 
 .starter-template {
@@ -11,6 +23,14 @@ body {
     margin: 0;
 }
 .col-md-12.logo{
+    margin: 0 !important;
+}
+
+body > nav{
+    padding-left: 15px;
+}
+
+#navbarsExampleDefault{
     margin: 0 !important;
 }
 
@@ -43,7 +63,7 @@ body {
 }
 
 /* Footer Layer 1 Style */
-#footer {
+#firstfooter {
     background-color: #ff955b;
     width: 100%;
     color: white;
@@ -51,6 +71,7 @@ body {
     height: 100px;
     bottom: 0;
     padding-left: 1em;
+    margin-top: 5%;
 }
 
 /* Footer Layer 2 Style */
@@ -65,9 +86,7 @@ body {
     padding-left: 1em;
 }
 
-main {
-    min-height: 100%;
+input{
+    margin-right: 10px !important;
 }
-
-
 
