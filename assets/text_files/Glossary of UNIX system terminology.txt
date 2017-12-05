@@ -1,0 +1,91 @@
+﻿bss segment
+
+The uninitiated data segment of a running program. It is allocated when the program starts running and is not present in the executable program on disk.
+
+core dump
+
+An image of a terminated process saved for debugging. A core file is created under the name core in the current directory of the process when an abnormal event occurs that results in the process's termination.
+
+demand paging
+
+A refinement of paging in which it is not necessary to load in the entire contents of the text and data segments of a program from disk when the process is started. Instead, pages are brought into memory as they are accessed. Demand paging is enabled by hardware features of the 80386 and 80486 processors that are supported by the operating system.
+
+device
+
+A peripheral piece of equipment used for I/O operations. The UNIX system uses the philosophy of separating processes from I/O devices to allow flexibility. Device files, also called ``special device files'' or ``device nodes,'' are located under the /dev directory and are used to access the device driver from user-level programs.
+
+device driver
+
+A piece of program code linked into the kernel to handle all read, write, and control operations on a particular device.
+
+GID
+
+A number, usually associated with a group name, used by the system to identify the group owner of files and directories. The GID of a process becomes the group owner of files created by the process and descendant processes. A GID identifies a group of UIDs.
+
+inode
+
+The control structure for all files on UNIX operating systems. Inode stands for Index Node, and is the focus of all file activities in the UNIX filesystem. Each file has one inode that defines the file's type (regular, directory, device, and so forth), the location on disk, the size of the file, access permissions, access times, and so forth. Note that the file's name is not stored in the inode; instead, the directory associates filenames with inodes.
+
+kernel
+
+The basic memory-resident software on which the UNIX system relies. It is responsible for most operating system functions, including scheduling and managing processes and filesystem maintenance.
+
+mount
+
+To make a filesystem available for use by attaching it to a point in the hierarchical filesystem. This is done with either the mount(ADM) command or the mount(S) system call.
+
+multitasking
+
+The capability of a computer or operating system to appear to run more than one task at a time.
+
+paging
+
+A mechanism by which a process can occupy less physical memory than is allocated in the logical address space. Performed through the division of memory into pages that can be paged in from or out to the swap area on disk.
+
+preemptive
+
+Describes an operating system where the task-switching operation can occur at any point. The kernel can preempt the operation of any process in order to switch tasks. The process need not relinquish control or signify in any way that it is ready to be switched.
+
+priority
+
+Relative ordering given to a process with respect to other processes. System processes have a higher priority than user processes.
+
+process
+
+An instance of a program that is at some stage of execution. In UNIX operating systems, it also refers to the execution of a computer environment, including contents of memory, register values, name of the current working directory, status of files, information recorded at login time, and so forth. A new process is initiated when a user types the name of a file that represents an executable program or when another user-level process executes such a file.
+
+protected mode
+
+A mode of operation in the 80386 and 80486 in which it is possible to make use of the processor's architectural features for multitasking operating systems.
+
+region
+
+A portion of virtual memory associated with an executing process. Each executing process has a region for its text segment, its data segment, and its stack segment, and may have an additional region for a shared memory segment.
+
+root permissions
+
+Permissions that allow you to read or write any file or internal data structure on the system. ``Superuser'' is the word used to describe someone working with root permissions, but these two terms are often used interchangeably to refer to UID 0.
+
+swap area
+
+An area of hard disk set aside for use by the memory management subsystem.
+
+system call
+
+A request by an active process for a service performed by the UNIX system kernel, such as I/O or process creation. All system operations are allocated, initiated, monitored, manipulated, and terminated through system calls. System calls allow a user-level program to do work that the program would not normally be able to do.
+
+text segment
+
+The segment that contains binary machine language instructions, equivalent to program code.
+
+time slice
+
+The real time during which a process is actually running on the processor.
+
+UID
+
+A number, usually associated with a login name, used by the system to identify owners of files and directories. The UID of a process becomes the owner of files created by the process and descendant processes.
+
+virtual memory
+
+Logically-assigned memory that may or may not exist physically. Through the use of paging and the swap area, more memory can be referenced and allocated than actually exists on the system.

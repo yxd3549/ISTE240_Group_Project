@@ -14,7 +14,7 @@
         be ready to answer some technical questions about UNIX. We provide you with 38 frequently asked
         questions and their answers. We hope it helps!</p>
     </div>
-    <ol><?php readQuestions();?></ol>
+    <ol><?php readQuestions("../../assets/text_files/Top 40 Unix Interview Question.txt");?></ol>
 
 </main><!-- /.container -->
 
