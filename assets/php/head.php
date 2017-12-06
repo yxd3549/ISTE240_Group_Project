@@ -55,6 +55,7 @@
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
                     <a class="dropdown-item" href="<?=URL_PAGES?>references/glossary.php">Glossary</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>references/cli_shortcuts.php">CLI Shortcuts</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>references/io_redirectors.php">I/O Redirectors</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>references/interview_questions.php">Interview Questions</a>
                 </div>
             </li>
