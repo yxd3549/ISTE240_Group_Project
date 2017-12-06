@@ -40,6 +40,7 @@
                     <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/getting_started.php">Getting Started</a>
 
                     <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/debugging_scripts.php">Debugging Scripts</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/tarballs.php">Tar Balls</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
