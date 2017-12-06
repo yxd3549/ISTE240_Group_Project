@@ -54,6 +54,7 @@
                 <a class="nav-link dropdown-toggle" href="<?=URL_PAGES?>references.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">References</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
                     <a class="dropdown-item" href="<?=URL_PAGES?>references/glossary.php">Glossary</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>references/cli_shortcuts.php">CLI Shortcuts</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>references/interview_questions.php">Interview Questions</a>
                 </div>
             </li>
