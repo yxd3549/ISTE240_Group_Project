@@ -17,13 +17,18 @@
             licensed Unix operating systems (and their vendors) include OS X (Apple), Solaris (Oracle), AIX (IBM),
             IRIX (SGI), and HP-UX (Hewlett-Packard). </p><br/>
 
-            <aside>Note:<br/><br/>Operating systems that behave like Unix systems and provide similar utilities, but do not conform to Unix
+            <aside style="text-align: left;">Note:<br/><br/>
+                Operating systems that behave like Unix systems and provide similar utilities, but do not conform to Unix
                 specification or are not licensed by The Open Group, are commonly known as Unix-like systems. These include
                 a wide variety of Linux distributions (e.g., Red Hat Enterprise Linux, Ubuntu, and CentOS) and several descendants
                 of the Berkeley Software Distribution operating system (e.g., FreeBSD, OpenBSD, and NetBSD).
             </aside>
 
-
+            Unix was developed using a high-level programming language (C) instead of platform-specific assembly language,
+            enabling its portability across multiple computer platforms. Unix also was developed as a self-contained software
+            system, comprising the operating system, development environment, utilities, documentation, and modifiable source code.
+            These key factors led to widespread use and further development in commercial settings, and helped Unix and its variants
+            become an important teaching and learning tool used in academic settings.
         </p>
     </div>
 </main><!-- /.container -->
