@@ -51,6 +51,7 @@
                     <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/file_permissions_quiz.php">File Permissions Quiz</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/getting_started_quiz.php">Getting Started Quiz</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/shell_scripting_quiz.php">Shell Scripting Quiz</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/tarballs_quiz.php">Tarballs Quiz</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
