@@ -8,7 +8,7 @@ require_once PATH_PHP . "utilities.php"
 <main role="main" class="container">
 
     <div class="starter-template">
-        <h1>Why Use Linux?</h1>
+        <h1>Why Use Unix?</h1>
         <p class="lead">
             Unix makes a great platform for utility servers such as Domain Name System,
             or DNS, Dynamic Host Configuration Protocol, or DHCP, and Web servers. Its lean

@@ -8,7 +8,7 @@ require_once PATH_PHP . "utilities.php"
     <main role="main" class="container">
 
         <div class="starter-template">
-            <h1>Computing Baiscs - Command Line Interface</h1>
+            <h1>Computing Basics - Command Line Interface</h1>
             <p class="lead">The command line interface is an EXTREMELY powerful tool in Unix. It is the main way to interact with the operating
                 system in most cases. Using series of commands, one can manipulate the computer with just a keyboard and a little bit of
                 knowledge. Since the command line (CLI for short) is so extensive,

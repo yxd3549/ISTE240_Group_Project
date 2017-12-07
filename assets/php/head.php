@@ -10,6 +10,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="<?=URL_CSS?>bootstrap.css" rel="stylesheet">
+    <link rel="icon" href="<?=URL_MEDIA?>logoFav.ico" type="image/x-icon">
 
     <!-- Custom styles for this template -->
     <link href="<?=URL_CSS?>style.css" rel="stylesheet">
@@ -37,8 +38,19 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="<?=URL_PAGES?>tutorials.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tutorials</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/getting_started.php">Getting Started</a>
-
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/getting_started.php">Getting Started - Windows</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/getting_started_mac.php">Getting Started - Mac OS</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/about_commands.php">User Commands</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/command_line_interface.php">Command Line Interface</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/connecting_public.php">Miscellaneous Commands</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/directory_commands.php">Directory Commands</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/directory_structure.php">Directory Structure</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/file_permission.php">File Permission</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/shell_scripting.php">Shell Scripting</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/unix_basics.php">Unix Basics</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/unix_components.php">Unix Components</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/what_is_os.php">What is an OS</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/tar_balls.php">Tar Balls</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/debugging_scripts.php">Debugging Scripts</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/tarballs.php">Tar Balls</a>
                 </div>
@@ -51,6 +63,9 @@
                     <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/file_permissions_quiz.php">File Permissions Quiz</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/getting_started_quiz.php">Getting Started Quiz</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/shell_scripting_quiz.php">Shell Scripting Quiz</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/tarballs_quiz.php">Tarballs Quiz</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/user_commands_quiz.php">User Commands Quiz</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/outside_world_quiz.php">Connecting to the Outside World Quiz</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -66,7 +81,9 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="<?=URL_PAGES?>about_unix.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About UNIX</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/what.php">What is Unix?</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/history.php">History</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/components.php">Key Components</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/flavors.php">Flavors of Unix</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/linux.php">Linux</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/uses.php">Uses of Unix</a>
