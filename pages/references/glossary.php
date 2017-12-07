@@ -1,4 +1,4 @@
-<?php
+≈<?php
 $title = "Glossary";
 $rel_path_home = "../../";
 $section = "references";

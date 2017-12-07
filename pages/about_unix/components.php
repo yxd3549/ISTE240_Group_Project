@@ -1,5 +1,6 @@
 <?php
     $title = "Components";
+    $section = "about_unix";
     $rel_path_home = "../../";
     require_once $rel_path_home . "assets/php/page_start.php";
     require_once PATH_PHP . "head.php";
