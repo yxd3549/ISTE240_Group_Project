@@ -32,11 +32,11 @@
 
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item <?=($section == 'home') ? 'active' : ''; ?>">
                 <a class="nav-link" href="<?=URL?>index.php">Home<span class="sr-only"></span></a>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="<?=URL_PAGES?>tutorials.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tutorials</a>
+            <li class="nav-item dropdown <?=($section == 'tutorials') ? 'active' : ''; ?>">
+                <a class="nav-link dropdown-toggle" href="<?=URL_PAGES?>tutorials_landing.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tutorials</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
                     <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/getting_started.php">Getting Started - Windows</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/getting_started_mac.php">Getting Started - Mac OS</a>
@@ -55,8 +55,8 @@
                     <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/tarballs.php">Tar Balls</a>
                 </div>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="<?=URL_PAGES?>quizzes.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quizzes</a>
+            <li class="nav-item dropdown <?=($section == 'quizzes') ? 'active' : ''; ?>">
+                <a class="nav-link dropdown-toggle" href="<?=URL_PAGES?>quizzes_landing.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quizzes</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
                     <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/cli_quiz.php">Command Line Interface Quiz</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/directory_structure_quiz.php">Directory Structure Quiz</a>
@@ -66,28 +66,37 @@
                     <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/tarballs_quiz.php">Tarballs Quiz</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/user_commands_quiz.php">User Commands Quiz</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/outside_world_quiz.php">Connecting to the Outside World Quiz</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/os_quiz.php">Operating Systems Quiz</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/unix_components_quiz.php">Unix Components Quiz</a>
                 </div>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="<?=URL_PAGES?>references.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">References</a>
+            <li class="nav-item dropdown <?=($section == 'references') ? 'active' : ''; ?>">
+                <a class="nav-link dropdown-toggle" href="<?=URL_PAGES?>references_landing.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">References</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
                     <a class="dropdown-item" href="<?=URL_PAGES?>references/glossary.php">Glossary</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>references/cli_shortcuts.php">CLI Shortcuts</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>references/io_redirectors.php">I/O Redirectors</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>references/process_handling.php">Process Handling</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>references/interview_questions.php">Interview Questions</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>references/basic_commands.php">Basic Commands</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>references/function_flow_control.php">Function Flow Control</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>references/network_commands.php">Network Commands</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>references/shell_programming.php">Shell Programming</a>
                 </div>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="<?=URL_PAGES?>about_unix.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About UNIX</a>
+            <li class="nav-item dropdown <?=($section == 'about_unix') ? 'active' : ''; ?>">
+                <a class="nav-link dropdown-toggle" href="<?=URL_PAGES?>about_unix_landing.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About UNIX</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/what.php">What is Unix?</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/history.php">History</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/components.php">Key Components</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/flavors.php">Flavors of Unix</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/linux.php">Linux</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/uses.php">Uses of Unix</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/advantages.php">Advantages/Disadvantages</a>
                 </div>
             </li>
-            <li class="nav-item">
+            <li class="nav-item <?=($section == 'about_us') ? 'active' : ''; ?>">
                 <a class="nav-link" href="<?=URL_PAGES?>about_us.php">About Us<span class="sr-only"></span></a>
             </li>
         </ul>

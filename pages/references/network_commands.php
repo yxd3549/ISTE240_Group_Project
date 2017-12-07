@@ -1,5 +1,5 @@
 <?php
-$title = "Process Handling";
+$title = "SSH, System Info and Network Commands";
 $section = "references";
 $rel_path_home = "../../";
 require_once $rel_path_home . "assets/php/page_start.php";
@@ -10,11 +10,10 @@ require_once PATH_PHP . "utilities.php"
 <main role="main" class="container">
 
     <div class="starter-template">
-        <h1>Process Handling</h1>
-        <p class="lead">Once you understand how processes work, you can use the following commands
-        to handle them wisely</p>
+        <h1>SSH, System Info and Network Commands</h1>
+        <p class="lead">If you find yourself thrill diving into the networking side of Unix, you will find the following commands helpful. </p>
     </div>
-    <ul><?php readQuestions("../../assets/text_files/process_handling.txt");?></ul>
+    <ul><?php readQuestions("../../assets/text_files/network commands.txt");?></ul>
 
 </main><!-- /.container -->
 

@@ -1,5 +1,5 @@
 <?php
-$title = "Process Handling";
+$title = "Basic Shell Programming Commands";
 $section = "references";
 $rel_path_home = "../../";
 require_once $rel_path_home . "assets/php/page_start.php";
@@ -10,11 +10,10 @@ require_once PATH_PHP . "utilities.php"
 <main role="main" class="container">
 
     <div class="starter-template">
-        <h1>Process Handling</h1>
-        <p class="lead">Once you understand how processes work, you can use the following commands
-        to handle them wisely</p>
+        <h1>Basic Shell Programming Commands</h1>
+        <p class="lead">Here are some basic variables used in Shell Programming</p>
     </div>
-    <ul><?php readQuestions("../../assets/text_files/process_handling.txt");?></ul>
+    <ul><?php readQuestions("../../assets/text_files/Shell Programming.txt");?></ul>
 
 </main><!-- /.container -->
 
