@@ -58,6 +58,19 @@ body > nav{
     box-shadow: 2px 2px 5px 1px gray;
 }
 
+.land-image2 {
+    margin: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block !important;
+    border: .5px solid black;
+    border-radius: 10px;
+    -webkit-filter: brightness(100%);
+    box-shadow: 2px 2px 5px 1px gray;
+}
+
 .land-image:hover {
     -webkit-filter: brightness(90%);
 }
@@ -88,5 +101,24 @@ body > nav{
 
 input{
     margin-right: 10px !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+.dropdown-item {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.dropdown-item:hover {
+    font-weight: bold;
+    text-decoration: underline;
 }
 
