@@ -14,18 +14,20 @@
 ?>
 
     <main role="main" class="container">
-
-        <div class="starter-template">
+        <br/>
+        <img class="land-image" style="display: inline-flex;" src="../assets/media/history_thumb.png" alt="Img" title="About Unix" width=300px height="auto"/>
+        <div class="starter-template2">
             <h1 class="page-title">About</h1>
             <!-- content goes here -->
-            <span><a class="landing-links" href="<?=URL_PAGES?>about_unix/what.php">What is Unix?</a></span><br>
-            <span><a class="landing-links" href="<?=URL_PAGES?>about_unix/history.php">History</a></span><br>
-            <span><a class="landing-links" href="<?=URL_PAGES?>about_unix/components.php">Key Components</a></span><br>
-            <span><a class="landing-links" href="<?=URL_PAGES?>about_unix/flavors.php">Flavors of Unix</a></span><br>
-            <span><a class="landing-links" href="<?=URL_PAGES?>about_unix/linux.php">Linux</a></span><br>
-            <span><a class="landing-links" href="<?=URL_PAGES?>about_unix/uses.php">Uses of Unix</a></span><br>
-            <span><a class="landing-links" href="<?=URL_PAGES?>about_unix/advantages.php">Advantages/Disadvantages</a></span><br>
+            <span class="land-image2"><a class="landing-links" href="<?=URL_PAGES?>about_unix/what.php">What is Unix?</a></span><br>
+            <span class="land-image2"><a class="landing-links" href="<?=URL_PAGES?>about_unix/history.php">History</a></span><br>
+            <span class="land-image2"><a class="landing-links" href="<?=URL_PAGES?>about_unix/components.php">Key Components</a></span><br>
+            <span class="land-image2"><a class="landing-links" href="<?=URL_PAGES?>about_unix/flavors.php">Flavors of Unix</a></span><br>
+            <span class="land-image2"><a class="landing-links" href="<?=URL_PAGES?>about_unix/linux.php">Linux</a></span><br>
+            <span class="land-image2"><a class="landing-links" href="<?=URL_PAGES?>about_unix/uses.php">Uses of Unix</a></span><br>
+            <span class="land-image2"><a class="landing-links" href="<?=URL_PAGES?>about_unix/advantages.php">Advantages/Disadvantages</a></span><br>
         </div>
+        <img class="land-image" style="display: inline-flex; float: right;" src="../assets/media/history_thumb.png" alt="Img" title="About Unix" width=300px height="auto"/>
     </main><!-- /.container -->
 
 <?php
