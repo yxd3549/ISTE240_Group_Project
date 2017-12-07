@@ -1,100 +1,62 @@
-
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Starter Template for Bootstrap</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="../../assets/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="../../assets/css/style.css" rel="stylesheet">
-    <link href="../../assets/css/timelineStyle.css" rel="stylesheet">
-</head>
-
-<body>
-<div class="above-nav" style="background-color: #302ba3;">
-    <div class="row">
-        <div class="col-md-12 logo">
-            <img src="../../assets/media/logoReee.png" alt="Logo" width="auto" height="auto" id="logo"/>
-        </div>
-    </div>
-
-</div>
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="../../index.php">Home<span class="sr-only"></span></a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="../../pages/tutorials.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tutorials</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="../../pages/tutorials/getting_started.php">Getting Started</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="../../pages/quizzes.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quizzes</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="../../pages/quizzes/getting_started_quiz.php">Getting Started Quiz</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="../../pages/references.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">References</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="../../pages/references/interview_questions.php">Interview Questions</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown active">
-                <a class="nav-link dropdown-toggle" href="../../pages/about_unix.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About UNIX</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="../../pages/about_unix/history.php">History</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">About Us<span class="sr-only"></span></a>
-            </li>
-        </ul>
-    </div>
-</nav>
-
+<?php
+$title = "Uses of Unix";
+$rel_path_home = "../../";
+require_once $rel_path_home . "assets/php/page_start.php";
+require_once PATH_PHP . "head.php";
+require_once PATH_PHP . "utilities.php"
+?>
 <main role="main" class="container">
 
     <div class="starter-template">
         <h1>Why Use Linux?</h1>
+        <p class="lead">
+            Unix makes a great platform for utility servers such as Domain Name System,
+            or DNS, Dynamic Host Configuration Protocol, or DHCP, and Web servers. Its lean
+            architecture preserves resources for the actual applications that you want to run,
+            rather than consuming them just to boot the operating system itself. Unix also provides
+            a stable and secure platform for applications that do not require direct user interaction
+            with the operating system. </p>
     </div>
+    <div>
+        <h2><strong>Advantages and Disadvantages of Unix</strong></h2><br/><br/>
+        <h3>Advantages:</h3><br/>
+        <h4><em>Virtual Memory Usage</em></h4>
+        <p>The Unix operating system offers an efficient level of virtual memory. What this means for the user
+            is that you can use a number of programs at the same time using only a modest level of physical memory.
+            The system can handle several programs at once without severely pulling on the system's resources.</p>
+        <h4><em>Toolbox</em></h4>
+        <p>This operating system offers a rich collection of small utilities and commands that are designed to carry
+            out specific tasks well rather than being cluttered up with a variety of special but insignificant options.
+            Unix acts as a well-stocked toolbox rather than attempting to do everything at once.</p>
+        <h4><em>Customization</em></h4>
+        <p>Unix has the ability to string different utilities and commands together in an unlimited number of configurations
+            in order to accomplish a variety of complicated tasks. This operating system is not limited to any pre-configured
+            menus or combinations as most ordinary personal computer systems normally are. </p>
+        <h4><em>Security</em></h4>
+        <p>UNIX has built-in security and permissions features thus giving a solid user security. UNIX assigns permissions
+            to the UID and GID of user, based on which the accesses to the files are controlled. All users must be
+            authenticated by a valid account and password to use the system at all. All files are owned by particular accounts.
+            The owner can decide whether others have read or write access to his files.</p>
+        <h4><em>Portability</em></h4>
+        <p>Unix is available for use on a variety of different types of machines, making it one of the most portable operating
+            systems in existence. Unix can be run on both PC and Macintosh computers and many other computing machines as well.</p><br/><br/>
 
+        <h3>Disadvantages:</h3><br/>
+        <h4><em>Interface</em></h4>
+        <p>The traditional interface for the Unix operating system is command line based, and this command line shell interface
+            is designed for programmer, not the casual user. Unix was developed for use by programmers and serious computer users
+            rather than casual users. A graphical user interface (GUI) is also available, but the traditional Unix interface is
+            command line only.</p>
+        <h4><em>Special Commands</em></h4>
+        <p>Commands required by the command line interface often make use of cryptic naming schemes, and do not give much information
+            to notify a user of what they are doing. Many commands in the Unix interface require the use of special characters.
+            Small, normally insignificant typos can have much greater effects and unexpected results on Unix machines</p>
+        <h4><em>Overwhelming Utilities</em></h4>
+        <p>While Unix provides many utilities and is a benefit to many, it may be overwhelming to novice user. Also some
+            UNIX utilities can prove disastrous if not used correctly.</p>
+    </div>
 </main><!-- /.container -->
 
-
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-
-<div id="footer">
-    This project was created by ThunderFox
-    <p>
-        Jake      | Louis  |  Abhigyan<br>
-        Yancarlos | Bakari |  Aiden
-    </p>
-</div>
-<!-- LAYER TWO -->
-<div id="secondfooter">
-    Created for ISTE 240 Group project
-</div>
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-
-</body>
-</html>
+<?php
+    require_once PATH_PHP . "footer.php";
+?>
