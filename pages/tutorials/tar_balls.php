@@ -1,6 +1,7 @@
 <?php
 $title = "Tar Balls";
 $section = "tutorials";
+$next_page = "tutorials/debugging_scripts.php";
 $rel_path_home = "../../";
 require_once $rel_path_home . "assets/php/page_start.php";
 require_once PATH_PHP . "head.php";
@@ -63,6 +64,9 @@ require_once PATH_PHP . "utilities.php"
             <p>At Indiana University, for personal or departmental Linux or Unix systems support <a href="https://kb.iu.edu/d/beqc">At IU, how do I get support for Linux or Unix?.</a></li></ul></p>
             <p>This document was developed with support from National Science Foundation (NSF) grants 1053575 and 1548562. Any opinions, findings, conclusions, or recommendations expressed in this material are
                 those of the author(s) and do not necessarily reflect the views of the NSF.</p>
+            <?php
+            require_once PATH_PHP . "next.php";
+            ?>
         </div>
     </main><!-- /.container -->
 

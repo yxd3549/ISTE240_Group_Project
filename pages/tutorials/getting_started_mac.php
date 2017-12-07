@@ -1,6 +1,7 @@
 <?php
 $title = "Getting Started Mac";
 $section = "tutorials";
+$next_page = "tutorials/what_is_os.php";
 $rel_path_home = "../../";
 require_once $rel_path_home . "assets/php/page_start.php";
 require_once PATH_PHP . "head.php";
@@ -31,6 +32,10 @@ require_once PATH_PHP . "utilities.php"
                 <li>You will then be prompted to enter the username and password. Once you are successfully authenticated, you are good to go.</li>
                 <img src="../../assets/media/password.png" alt="password" height="367" width="585">
             </ol>
+
+            <?php
+            require_once PATH_PHP . "next.php";
+            ?>
         </div>
     </main><!-- /.container -->
 

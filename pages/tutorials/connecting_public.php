@@ -1,6 +1,7 @@
 <?php
 $title = "Connecting to the Outside World";
 $section = "tutorials";
+$next_page = "tutorials/shell_scripting.php";
 $rel_path_home = "../../";
 require_once $rel_path_home . "assets/php/page_start.php";
 require_once PATH_PHP . "head.php";
@@ -41,6 +42,10 @@ require_once PATH_PHP . "utilities.php"
                 <li><b>cal </b> --- shows a calendar of the current month. Use e.g., 'cal 10 1995' to get that for October 95, or 'cal 1995' to get the whole year.
                 </li>
             </ul>
+
+            <?php
+            require_once PATH_PHP . "next.php";
+            ?>
         </div>
     </main><!-- /.container -->
 

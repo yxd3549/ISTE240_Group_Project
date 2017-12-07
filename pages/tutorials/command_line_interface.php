@@ -1,6 +1,7 @@
 <?php
 $title = "Command Line Interface";
 $section = "tutorials";
+$next_page = "tutorials/unix_basics.php";
 $rel_path_home = "../../";
 require_once $rel_path_home . "assets/php/page_start.php";
 require_once PATH_PHP . "head.php";
@@ -38,8 +39,13 @@ require_once PATH_PHP . "utilities.php"
                 <li>pwd to make sure you’re in the right folder</li>
                 <li>You used CLI!</li>
             </ol>
+
+            <?php
+            require_once PATH_PHP . "next.php";
+            ?>
         </div>
     </main><!-- /.container -->
+
 
 <?php
 require_once PATH_PHP . "footer.php";
