@@ -90,3 +90,22 @@ input{
     margin-right: 10px !important;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+.dropdown-item {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.dropdown-item:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
