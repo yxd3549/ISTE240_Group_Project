@@ -10,6 +10,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="<?=URL_CSS?>bootstrap.css" rel="stylesheet">
+    <link href="<?=URL_MEDIA?>logoFav.png" href="favicon.ico" type="image/x-icon">
 
     <!-- Custom styles for this template -->
     <link href="<?=URL_CSS?>style.css" rel="stylesheet">
