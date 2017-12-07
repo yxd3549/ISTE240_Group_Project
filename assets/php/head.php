@@ -16,14 +16,8 @@
 </head>
 
 <body>
-<div class="above-nav" style="background-color: #302ba3;">
-    <div class="row">
-        <div class="col-md-12 logo">
-            <img src="<?=URL_MEDIA?>logoReee.png" alt="Logo" width="auto" height="auto" id="logo"/>
-        </div>
-    </div>
-</div>
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
