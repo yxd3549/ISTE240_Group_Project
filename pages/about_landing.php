@@ -18,6 +18,7 @@
         <div class="starter-template">
             <h1 class="page-title">About</h1>
             <!-- content goes here -->
+            <span><a class="landing-links" href="<?=URL_PAGES?>about_unix/advantages.php">Advantages</a></span><br>
             <span><a class="landing-links" href="<?=URL_PAGES?>about_unix/components.php">Key Components</a></span><br>
             <span><a class="landing-links" href="<?=URL_PAGES?>about_unix/flavors.php">Flavors of Unix</a></span><br>
 			<span><a class="landing-links" href="<?=URL_PAGES?>about_unix/uses.php">Uses of Unix</a></span><br>

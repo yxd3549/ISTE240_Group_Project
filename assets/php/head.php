@@ -10,7 +10,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="<?=URL_CSS?>bootstrap.css" rel="stylesheet">
-    <link rel="icon" href="<?=URL_MEDIA?>logoFav.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="<?=URL_MEDIA?>favicon.ico" type="image/x-icon">
 
     <!-- Custom styles for this template -->
     <link href="<?=URL_CSS?>style.css" rel="stylesheet">
