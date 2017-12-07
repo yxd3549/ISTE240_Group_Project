@@ -109,7 +109,6 @@ input{
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    font-weight: bold;
     text-decoration: none;
 }
 
@@ -125,5 +124,9 @@ input{
 .dropdown-item:hover {
     font-weight: bold;
     text-decoration: underline;
+}
+
+#next {
+    float: right;
 }
 

@@ -32,6 +32,7 @@ if (!empty($_POST) && !empty($response1) && !empty($response2) && !empty($respon
 
 <?php
 $title = "Shell Scripting Quiz";
+$next_page = "quizzes/tarballs_quiz.php";
 $section = "quizzes";
 $rel_path_home = "../../";
 require_once $rel_path_home . "assets/php/page_start.php";
@@ -70,7 +71,9 @@ require_once PATH_PHP . "utilities.php";
             </ol>
             &emsp;<input type="submit">
         </form>
-
+        <?php
+        require_once PATH_PHP . "next.php";
+        ?>
     </main><!-- /.container -->
 
 

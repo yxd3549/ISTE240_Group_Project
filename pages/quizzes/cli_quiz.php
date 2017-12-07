@@ -32,6 +32,7 @@ if (!empty($_POST) && !empty($response1) && !empty($response2) && !empty($respon
 <?php
     $title = "CLI Quiz";
     $section = "quizzes";
+    $next_page = "quizzes/user_commands_quiz.php";
     $rel_path_home = "../../";
     require_once $rel_path_home . "assets/php/page_start.php";
     require_once PATH_PHP . "head.php";
@@ -70,6 +71,9 @@ if (!empty($_POST) && !empty($response1) && !empty($response2) && !empty($respon
         </ol>
         &emsp;<input type="submit">
     </form>
+    <?php
+    require_once PATH_PHP . "next.php";
+    ?>
 
 </main><!-- /.container -->
 

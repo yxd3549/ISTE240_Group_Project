@@ -31,6 +31,7 @@ if (!empty($_POST) && !empty($response1) && !empty($response2) && !empty($respon
 
 <?php
     $title = "Getting Started Quiz";
+    $next_page = "quizzes/os_quiz.php";
     $section = "quizzes";
     $rel_path_home = "../../";
     require_once $rel_path_home . "assets/php/page_start.php";
@@ -71,6 +72,9 @@ if (!empty($_POST) && !empty($response1) && !empty($response2) && !empty($respon
         </ol>
         &emsp;<input type="submit">
     </form>
+    <?php
+    require_once PATH_PHP . "next.php";
+    ?>
 
 </main><!-- /.container -->
 
