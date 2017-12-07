@@ -81,7 +81,9 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="<?=URL_PAGES?>about_unix.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About UNIX</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/what.php">What is Unix?</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/history.php">History</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/components.php">Key Components</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/flavors.php">Flavors of Unix</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/linux.php">Linux</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/uses.php">Uses of Unix</a>
