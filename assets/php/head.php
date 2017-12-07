@@ -66,6 +66,8 @@
                     <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/tarballs_quiz.php">Tarballs Quiz</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/user_commands_quiz.php">User Commands Quiz</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/outside_world_quiz.php">Connecting to the Outside World Quiz</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/os_quiz.php">Operating Systems Quiz</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/unix_components_quiz.php">Unix Components Quiz</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -76,6 +78,10 @@
                     <a class="dropdown-item" href="<?=URL_PAGES?>references/io_redirectors.php">I/O Redirectors</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>references/process_handling.php">Process Handling</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>references/interview_questions.php">Interview Questions</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>references/basic_commands.php">Basic Commands</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>references/function_flow_control.php">Function Flow Control</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>references/network_commands.php">Network Commands</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>references/shell_programming.php">Shell Programming</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
