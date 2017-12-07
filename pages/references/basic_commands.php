@@ -13,7 +13,7 @@ require_once PATH_PHP . "utilities.php"
             <h1>Basic Unix Commands</h1>
             <p class="lead">Want to use UNIX? Learn these commands.</p>
         </div>
-        <ul><?php readQuestions("../../assets/text_files/basic_commands");?></ul>
+        <ul><?php readQuestions("../../assets/text_files/basic_commands.txt");?></ul>
 
     </main><!-- /.container -->
 
