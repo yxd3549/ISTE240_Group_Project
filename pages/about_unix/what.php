@@ -17,12 +17,13 @@
             licensed Unix operating systems (and their vendors) include OS X (Apple), Solaris (Oracle), AIX (IBM),
             IRIX (SGI), and HP-UX (Hewlett-Packard). </p><br/>
 
-            <aside>Note</aside><br/>
+            <aside>Note:<br/>Operating systems that behave like Unix systems and provide similar utilities, but do not conform to Unix
+                specification or are not licensed by The Open Group, are commonly known as Unix-like systems. These include
+                a wide variety of Linux distributions (e.g., Red Hat Enterprise Linux, Ubuntu, and CentOS) and several descendants
+                of the Berkeley Software Distribution operating system (e.g., FreeBSD, OpenBSD, and NetBSD).
+            </aside>
 
-            Operating systems that behave like Unix systems and provide similar utilities, but do not conform to Unix
-            specification or are not licensed by The Open Group, are commonly known as Unix-like systems. These include
-            a wide variety of Linux distributions (e.g., Red Hat Enterprise Linux, Ubuntu, and CentOS) and several descendants
-            of the Berkeley Software Distribution operating system (e.g., FreeBSD, OpenBSD, and NetBSD).
+
         </p>
     </div>
 </main><!-- /.container -->
