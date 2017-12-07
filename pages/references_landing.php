@@ -8,7 +8,7 @@
 ?>
     <main role="main" class="container">
         <br/>
-        <img class="land-image" style="display: inline-flex;" src="../assets/media/history_thumb.png" alt="Img" title="About Unix" width=300px height="auto"/>
+        <img class="land-image" style="display: inline-flex;" src="../assets/media/references2.PNG" alt="Img" title="About Unix" width=300px height="auto"/>
         <div class="starter-template2">
             <h1 class="page-title">References</h1>
             <!-- content goes here -->
