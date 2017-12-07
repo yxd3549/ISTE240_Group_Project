@@ -1,6 +1,7 @@
 <?php
     $title = "Getting Started Windows";
     $section = "tutorials";
+    $next_page = "tutorials/getting_started_mac.php";
     $rel_path_home = "../../";
     require_once $rel_path_home . "assets/php/page_start.php";
     require_once PATH_PHP . "head.php";
@@ -94,7 +95,9 @@
 
             </ul>
             <br><br>
-
+            <?php
+            require_once PATH_PHP . "next.php";
+            ?>
         </div>
     </main><!-- /.container -->
 

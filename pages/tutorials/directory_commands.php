@@ -1,6 +1,7 @@
 <?php
 $title = "Directory Commands";
 $section = "tutorials";
+$next_page = "tutorials/directory_structure.php";
 $rel_path_home = "../../";
 require_once $rel_path_home . "assets/php/page_start.php";
 require_once PATH_PHP . "head.php";
@@ -34,6 +35,9 @@ require_once PATH_PHP . "utilities.php"
                     grep comes in several varieties (grep, egrep, and fgrep) and has a lot of very flexible options. Check out the man pages if
                     this sounds good to you.</li>
             </ul>
+            <?php
+            require_once PATH_PHP . "next.php";
+            ?>
         </div>
     </main><!-- /.container -->
 

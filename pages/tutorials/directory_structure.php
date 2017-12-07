@@ -1,6 +1,7 @@
 <?php
 $title = "Directory Structure";
 $section = "tutorials";
+$next_page = "tutorials/file_permission.php";
 $rel_path_home = "../../";
 require_once $rel_path_home . "assets/php/page_start.php";
 require_once PATH_PHP . "head.php";
@@ -48,6 +49,9 @@ require_once PATH_PHP . "utilities.php"
                 <li>Change directory to dir2</li>
                 <li>Print the directory that you’re currently in</li>
             </ol>
+            <?php
+            require_once PATH_PHP . "next.php";
+            ?>
         </div>
     </main><!-- /.container -->
 

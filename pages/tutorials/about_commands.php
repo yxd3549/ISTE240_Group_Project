@@ -1,6 +1,7 @@
 <?php
 $title = "User Commands";
 $section = "tutorials";
+$next_page = "tutorials/directory_commands.php";
 $rel_path_home = "../../";
 require_once $rel_path_home . "assets/php/page_start.php";
 require_once PATH_PHP . "head.php";
@@ -54,8 +55,14 @@ require_once PATH_PHP . "utilities.php"
                 <li><b>last yourusername</b> --- lists your last logins. Can be a useful memory aid for when you were where, how long you've been working for, and keeping track of your phone bill if you're making a non-local phone call for dialling in.
                 </li>
             </ul>
+
+            <?php
+            require_once PATH_PHP . "next.php";
+            ?>
         </div>
     </main><!-- /.container -->
+
+
 
 <?php
 require_once PATH_PHP . "footer.php";

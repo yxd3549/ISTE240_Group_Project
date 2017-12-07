@@ -1,6 +1,7 @@
 <?php
 $title = "What is an OS?";
 $section = "tutorials";
+$next_page = "tutorials//unix_components.php";
 $rel_path_home = "../../";
 require_once $rel_path_home . "assets/php/page_start.php";
 require_once PATH_PHP . "head.php";
@@ -62,6 +63,9 @@ require_once PATH_PHP . "utilities.php"
             <img src="../../assets/media/mobile.png" alt="mobile_system" height="500" width="660">
             <p>Operating systems for mobile devices generally aren't as fully featured as those made for desktop and laptop computers, and they aren't able to run all of the same software. However,
                 you can still do a lot of things with them, like watch movies, browse the Web, manage your calendar, and play games.</p>
+            <?php
+            require_once PATH_PHP . "next.php";
+            ?>
         </div>
     </main><!-- /.container -->
 

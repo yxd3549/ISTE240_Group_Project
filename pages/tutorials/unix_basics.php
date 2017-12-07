@@ -1,6 +1,7 @@
 <?php
 $title = "Unix Basics";
 $section = "tutorials";
+$next_page = "tutorials/about_commands.php";
 $rel_path_home = "../../";
 require_once $rel_path_home . "assets/php/page_start.php";
 require_once PATH_PHP . "head.php";
@@ -64,7 +65,9 @@ require_once PATH_PHP . "utilities.php"
                 </li>
                 <li><b>dvips filename</b> --- print .dvi files (i.e. files produced by LaTeX). You can use dviselect to print only selected pages. </li>
             </ul>
-
+            <?php
+            require_once PATH_PHP . "next.php";
+            ?>
         </div>
     </main><!-- /.container -->
 
