@@ -12,8 +12,15 @@
     <div class="starter-template">
         <h1 class="page-title">References</h1>
         <!-- content goes here -->
-        <span><a href="references/interview_questions.php">Mock Interview Questions</a></span>
-    </div>
+        <span><a class="landing-links" href="<?=URL_PAGES?>references/glossary.php">Glossary</a></span><br>
+		<span><a class="landing-links" href="<?=URL_PAGES?>references/interview_questions.php">Mock Interview Questions</a></span><br>
+		<span><a class="landing-links" href="<?=URL_PAGES?>references/cli_shortcuts.php">CLI Shortcuts</a></span><br>
+		<span><a class="landing-links" href="<?=URL_PAGES?>references/function_flow_control.php">Function Flow Control</a></span><br>
+		<span><a class="landing-links" href="<?=URL_PAGES?>references/network_commands.php">Network Commands</a></span><br>
+		<span><a class="landing-links" href="<?=URL_PAGES?>references/io_redirectors.php">I/O Redirectors</a></span><br>
+		<span><a class="landing-links" href="<?=URL_PAGES?>references/process_handling.php">Process Handling</a></span><br>
+		<span><a class="landing-links" href="<?=URL_PAGES?>references/shell_programming.php">Shell Programming</a></span><br>
+	</div>
 </main><!-- /.container -->
 
 <?php

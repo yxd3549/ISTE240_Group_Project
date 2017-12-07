@@ -66,6 +66,8 @@
                     <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/tarballs_quiz.php">Tarballs Quiz</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/user_commands_quiz.php">User Commands Quiz</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/outside_world_quiz.php">Connecting to the Outside World Quiz</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/os_quiz.php">Operating Systems Quiz</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/unix_components_quiz.php">Unix Components Quiz</a>
                 </div>
             </li>
             <li class="nav-item dropdown <?=($section == 'references') ? 'active' : ''; ?>">
@@ -76,12 +78,18 @@
                     <a class="dropdown-item" href="<?=URL_PAGES?>references/io_redirectors.php">I/O Redirectors</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>references/process_handling.php">Process Handling</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>references/interview_questions.php">Interview Questions</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>references/basic_commands.php">Basic Commands</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>references/function_flow_control.php">Function Flow Control</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>references/network_commands.php">Network Commands</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>references/shell_programming.php">Shell Programming</a>
                 </div>
             </li>
             <li class="nav-item dropdown <?=($section == 'about_unix') ? 'active' : ''; ?>">
                 <a class="nav-link dropdown-toggle" href="<?=URL_PAGES?>about_unix_landing.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About UNIX</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/what.php">What is Unix?</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/history.php">History</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/components.php">Key Components</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/flavors.php">Flavors of Unix</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/linux.php">Linux</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/uses.php">Uses of Unix</a>

@@ -1,19 +1,14 @@
-
 <?php
-    $title = "About Unix"; /* Title to be show in tab*/
-    $section = "about_unix";
-    $rel_path_home = "../../"; /* relative path to the home directory. Ex: "../../ or "" */
-
-    /* Do Not Change*/ require_once $rel_path_home . "assets/php/page_start.php"; /* Do Not Change*/
-
-    require_once PATH_PHP . "head.php";
-    require_once PATH_PHP . "utilities.php"; /* utilities has the quiz grading methods and maybe others in the future, but not all pages use this */
+$title = "Uses of Unix";
+$rel_path_home = "../../";
+require_once $rel_path_home . "assets/php/page_start.php";
+require_once PATH_PHP . "head.php";
+require_once PATH_PHP . "utilities.php"
 ?>
-
 <main role="main" class="container">
 
     <div class="starter-template">
-        <h1>Why Use Unix?</h1>
+        <h1>Advantages and Disadvantages of Unix</h1>
         <p class="lead">
             Unix makes a great platform for utility servers such as Domain Name System,
             or DNS, Dynamic Host Configuration Protocol, or DHCP, and Web servers. Its lean
@@ -23,7 +18,7 @@
             with the operating system. </p>
     </div>
     <div>
-        <h2><strong>Advantages and Disadvantages of Unix</strong></h2><br/><br/>
+        <h2><strong></strong></h2><br/><br/>
         <h3>Advantages:</h3><br/>
         <h4><em>Virtual Memory Usage</em></h4>
         <p>The Unix operating system offers an efficient level of virtual memory. What this means for the user

@@ -12,7 +12,7 @@
         <h1>Welcome to ThunderFox Unix!</h1>
         <p class="lead">Unix is a powerful operating system, utilized in many computing fields for a variety of tasks. Using this site, you will be able to develop the skills and know-how to take advantage of Unix's benefits over its less advanced albeit less complicated co-operating systems.</p>
         <h3>Quick links</h3>
-        <a href="pages/about_unix_landing.php"><img class="land-image" src="assets/media/history_thumb.png" alt="About" title="About Unix" width=400px height="auto"/></a>
+        <a href="pages/about_landing.php"><img class="land-image" src="assets/media/history_thumb.png" alt="About" title="About Unix" width=400px height="auto"/></a>
         <!--<span>About</span> -->
         <a href="pages/tutorials_landing.php"><img class="land-image" src="assets/media/tutorial_thumb.png" alt="Tutorials" title="Tutorials" width="400px" height="auto"/></a>
         <!--<p>Tutorials</p>-->
