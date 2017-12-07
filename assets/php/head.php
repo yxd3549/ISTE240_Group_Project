@@ -37,10 +37,21 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="<?=URL_PAGES?>tutorials.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tutorials</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/getting_started.php">Getting Started</a>
-
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/getting_started.php">Getting Started - Windows</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/getting_started_mac.php">Getting Started - Mac OS</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/about_commands.php">User Commands</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/command_line_interface.php">Command Line Interface</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/connecting_public.php">Miscellaneous Commands</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/directory_commands.php">Directory Commands</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/directory_structure.php">Directory Structure</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/file_permission.php">File Permission</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/shell_scripting.php">Shell Scripting</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/unix_basics.php">Unix Basics</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/unix_components.php">Unix Components</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/what_is_os.php">What is an OS</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/tar_balls.php">Tar Balls</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/debugging_scripts.php">Debugging Scripts</a>
-                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/tarballs.php">Tar Balls</a>
+
                 </div>
             </li>
             <li class="nav-item dropdown">
