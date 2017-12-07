@@ -93,6 +93,7 @@
                     <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/flavors.php">Flavors of Unix</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/linux.php">Linux</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/uses.php">Uses of Unix</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/advantages.php">Advantages/Disadvantages</a>
                 </div>
             </li>
             <li class="nav-item <?=($section == 'about_us') ? 'active' : ''; ?>">
