@@ -30,9 +30,8 @@
             <span class="land-image2"><a class="landing-links" href="<?=URL_PAGES?>quizzes/shell_scripting_quiz.php">Shell Scripting</a></span><br>
             <span class="land-image2"><a class="landing-links" href="<?=URL_PAGES?>quizzes/tarballs_quiz.php">Tar Balls</a></span><br>
         </div>
-        <img class="land-image" style="display: inline-flex; float: right;" src="../assets/media/history_thumb.png" alt="Img" title="About Unix" width=300px height="auto"/>
+        <img class="land-image" style="display: inline-flex; float: right;" src="../assets/media/quiz_thumb.png" alt="Img" title="About Unix" width=300px height="auto"/>
     </main><!-- /.container -->
-
 <?php
     require_once PATH_PHP . "footer.php";
 ?>

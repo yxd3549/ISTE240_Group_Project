@@ -17,6 +17,7 @@
         <br/>
         <img class="land-image" style="display: inline-flex;" src="../assets/media/about2.PNG" alt="Img" title="About Unix" width=300px height="auto"/>
         <div class="starter-template2">
+
             <h1 class="page-title">About</h1>
             <!-- content goes here -->
             <span class="land-image2"><a class="landing-links" href="<?=URL_PAGES?>about_unix/what.php">What is Unix?</a></span><br>
@@ -29,6 +30,7 @@
         </div>
         <img class="land-image" style="display: inline-flex; float: right;" src="../assets/media/history_thumb.png" alt="Img" title="About Unix" width=300px height="auto"/>
     </main><!-- /.container -->
+
 
 <?php
 require_once PATH_PHP . "footer.php";
