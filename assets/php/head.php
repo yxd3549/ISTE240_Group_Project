@@ -35,7 +35,7 @@
             <li class="nav-item <?=($section == 'home') ? 'active' : ''; ?>">
                 <a class="nav-link" href="<?=URL?>index.php">Home<span class="sr-only"></span></a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown <?=($section == 'tutorials') ? 'active' : ''; ?>">
                 <a class="nav-link dropdown-toggle" href="<?=URL_PAGES?>tutorials_landing.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tutorials</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
                     <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/getting_started.php">Getting Started - Windows</a>
@@ -55,7 +55,7 @@
                     <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/tarballs.php">Tar Balls</a>
                 </div>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown <?=($section == 'quizzes') ? 'active' : ''; ?>">
                 <a class="nav-link dropdown-toggle" href="<?=URL_PAGES?>quizzes_landing.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quizzes</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
                     <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/cli_quiz.php">Command Line Interface Quiz</a>
@@ -68,7 +68,7 @@
                     <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/outside_world_quiz.php">Connecting to the Outside World Quiz</a>
                 </div>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown <?=($section == 'references') ? 'active' : ''; ?>">
                 <a class="nav-link dropdown-toggle" href="<?=URL_PAGES?>references_landing.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">References</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
                     <a class="dropdown-item" href="<?=URL_PAGES?>references/glossary.php">Glossary</a>
@@ -87,7 +87,7 @@
                     <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/uses.php">Uses of Unix</a>
                 </div>
             </li>
-            <li class="nav-item">
+            <li class="nav-item <?=($section == 'about_us') ? 'active' : ''; ?>">
                 <a class="nav-link" href="<?=URL_PAGES?>about_us.php">About Us<span class="sr-only"></span></a>
             </li>
         </ul>
