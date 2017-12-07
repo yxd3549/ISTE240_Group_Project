@@ -2,6 +2,7 @@
 
 <?php
     $title = "About Us"; /* Title to be show in tab*/
+    $section = "about_us";
     $rel_path_home = "../"; /* relative path to the home directory. Ex: "../../ or "" */
 
     /* Do Not Change*/ require_once $rel_path_home . "assets/php/page_start.php"; /* Do Not Change*/

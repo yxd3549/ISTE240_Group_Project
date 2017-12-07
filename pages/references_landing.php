@@ -1,16 +1,10 @@
 <?php
-/**
- * author: jake
- * Date: 11/27/17
- * Time: 2:32 PM
- */
-?>
-<?php
     $title = "References Landing";
-    $rel_path_home = "../";
+    $section = "references";
+    $rel_path_home = "../../";
     require_once $rel_path_home . "assets/php/page_start.php";
     require_once PATH_PHP . "head.php";
-    require_once PATH_PHP . "utilities.php";
+    require_once PATH_PHP . "utilities.php"
 ?>
 
 <main role="main" class="container">
