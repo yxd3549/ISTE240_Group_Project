@@ -32,7 +32,7 @@
 
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item <?=($section == 'Home') ? 'active' : ''; ?>">
+            <li class="nav-item <?=($section == 'home') ? 'active' : ''; ?>">
                 <a class="nav-link" href="<?=URL?>index.php">Home<span class="sr-only"></span></a>
             </li>
             <li class="nav-item dropdown">
@@ -78,7 +78,7 @@
                     <a class="dropdown-item" href="<?=URL_PAGES?>references/interview_questions.php">Interview Questions</a>
                 </div>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown <?=($section == 'about_unix') ? 'active' : ''; ?>">
                 <a class="nav-link dropdown-toggle" href="<?=URL_PAGES?>about_unix_landing.php" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About UNIX</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
                     <a class="dropdown-item" href="<?=URL_PAGES?>about_unix/history.php">History</a>
