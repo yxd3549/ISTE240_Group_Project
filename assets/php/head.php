@@ -52,7 +52,7 @@
                     <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/what_is_os.php">What is an OS</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/tar_balls.php">Tar Balls</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/debugging_scripts.php">Debugging Scripts</a>
-
+                    <a class="dropdown-item" href="<?=URL_PAGES?>tutorials/tarballs.php">Tar Balls</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -63,6 +63,9 @@
                     <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/file_permissions_quiz.php">File Permissions Quiz</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/getting_started_quiz.php">Getting Started Quiz</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/shell_scripting_quiz.php">Shell Scripting Quiz</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/tarballs_quiz.php">Tarballs Quiz</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/user_commands_quiz.php">User Commands Quiz</a>
+                    <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/outside_world_quiz.php">Connecting to the Outside World Quiz</a>
                 </div>
             </li>
             <li class="nav-item dropdown">

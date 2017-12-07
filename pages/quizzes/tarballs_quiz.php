@@ -64,7 +64,7 @@ require_once PATH_PHP . "utilities.php"
             <li>
                 <span style="font-weight: bold">What command decompresses tar files (GNU specific)?</span><?= $answer3 ?><br>
                 &emsp;<label for="3-1"><input type="radio" id="3-1" name="question3" value="1" <?=($response3 === "1" ? "checked" : "");?>>decompress</label><br>
-                &emsp;<label for="3-2"><input type="radio" id="3-2" name="question3" value="2" <?=($response3 === "2" ? "checked" : "");?>>unszip</label><br>
+                &emsp;<label for="3-2"><input type="radio" id="3-2" name="question3" value="2" <?=($response3 === "2" ? "checked" : "");?>>unzip</label><br>
                 &emsp;<label for="3-3"><input type="radio" id="3-3" name="question3" value="3" <?=($response3 === "3" ? "checked" : "");?>>gzip</label><br>
             </li>
         </ol>
