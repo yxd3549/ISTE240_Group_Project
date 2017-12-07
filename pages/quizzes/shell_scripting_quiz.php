@@ -1,4 +1,5 @@
 <?php
+error_reporting( E_ALL & ~E_NOTICE);
 $answers = array("2", "3", "2");
 $answer1 = "";
 $answer2 = "";
@@ -31,10 +32,11 @@ if (!empty($_POST) && !empty($response1) && !empty($response2) && !empty($respon
 
 <?php
 $title = "Shell Scripting Quiz";
+$section = "quizzes";
 $rel_path_home = "../../";
 require_once $rel_path_home . "assets/php/page_start.php";
 require_once PATH_PHP . "head.php";
-require_once PATH_PHP . "utilities.php"
+require_once PATH_PHP . "utilities.php";
 ?>
     <main role="main" class="container">
 

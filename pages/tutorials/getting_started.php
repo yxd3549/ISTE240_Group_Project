@@ -1,11 +1,13 @@
 <?php
-$title = "Getting Started";
-$rel_path_home = "../../";
-require_once $rel_path_home . "assets/php/page_start.php";
-require_once PATH_PHP . "head.php";
-require_once PATH_PHP . "utilities.php"
+    $title = "Getting Started Windows";
+    $section = "tutorials";
+    $rel_path_home = "../../";
+    require_once $rel_path_home . "assets/php/page_start.php";
+    require_once PATH_PHP . "head.php";
+    require_once PATH_PHP . "utilities.php"
 ?>
-    <main role="main" class="container">
+
+<main role="main" class="container">
 
         <div class="starter-template">
             <h1>Getting Started - Windows System</h1>
@@ -97,5 +99,5 @@ require_once PATH_PHP . "utilities.php"
     </main><!-- /.container -->
 
 <?php
-require_once PATH_PHP . "footer.php";
+    require_once PATH_PHP . "footer.php";
 ?>

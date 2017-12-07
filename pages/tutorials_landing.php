@@ -7,6 +7,7 @@
 ?>
 <?php
     $title = "Tutorials Landing";
+    $section = "tutorials";
     $rel_path_home = "../";
     require_once $rel_path_home . "assets/php/page_start.php";
     require_once PATH_PHP . "head.php";
@@ -26,8 +27,8 @@
         <span><a class="landing-links" href="<?=URL_PAGES?>tutorials/what_is_os.php">What is an OS</a></span><br>
         <span><a class="landing-links" href="<?=URL_PAGES?>tutorials/directory_structure.php">Directory Structure</a></span><br>
         <span><a class="landing-links" href="<?=URL_PAGES?>tutorials/file_permission.php">File Permission</a></span><br>
-        <span><a class="landing-links" href="<?=URL_PAGES?>tutorials/shell_scripting.php">Shell Scripting</a></span><br>      
-        <span><a class="landing-links" href="<?=URL_PAGES?>tutorials/unix_components.php">Unix Components</a></span><br>    
+        <span><a class="landing-links" href="<?=URL_PAGES?>tutorials/shell_scripting.php">Shell Scripting</a></span><br>
+        <span><a class="landing-links" href="<?=URL_PAGES?>tutorials/unix_components.php">Unix Components</a></span><br>
         <span><a class="landing-links" href="<?=URL_PAGES?>tutorials/tar_balls.php">Tar Balls</a></span><br>
         <span><a class="landing-links" href="<?=URL_PAGES?>tutorials/debugging_scripts.php">Debugging Scripts</a></span><br>
 		<span><a class="landing-links" href="<?=URL_PAGES?>tutorials/connecting_public.php">Miscellaneous Commands</a></span><br>

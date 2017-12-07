@@ -29,13 +29,13 @@ if (!empty($_POST) && !empty($response1) && !empty($response2) && !empty($respon
 }
 ?>
 
-
 <?php
-$title = "CLI Quiz";
-$rel_path_home = "../../";
-require_once $rel_path_home . "assets/php/page_start.php";
-require_once PATH_PHP . "head.php";
-require_once PATH_PHP . "utilities.php"
+    $title = "CLI Quiz";
+    $section = "quizzes";
+    $rel_path_home = "../../";
+    require_once $rel_path_home . "assets/php/page_start.php";
+    require_once PATH_PHP . "head.php";
+    require_once PATH_PHP . "utilities.php";
 ?>
 
 <main role="main" class="container">
@@ -73,8 +73,7 @@ require_once PATH_PHP . "utilities.php"
 
 </main><!-- /.container -->
 
+
 <?php
     require_once PATH_PHP . "footer.php";
 ?>
-
-
