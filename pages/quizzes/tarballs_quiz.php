@@ -71,7 +71,6 @@ require_once PATH_PHP . "utilities.php";
         </ol>
         &emsp;<input type="submit">
     </form>
-
 </main><!-- /.container -->
 
 <?php
