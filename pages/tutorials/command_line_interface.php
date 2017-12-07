@@ -18,7 +18,7 @@ require_once PATH_PHP . "utilities.php"
         </div>
 
         <div>
-            <h4>Known what you're using </h4>
+            <h4>Know what you're using </h4>
             <p>The CLI is a small window that contains only text. On Mac OS, it looks like this</p>
             <img src="../../assets/media/cli.png" alt="Cli" height="350" width="500">
             <p>

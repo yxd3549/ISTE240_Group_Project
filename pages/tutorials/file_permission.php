@@ -10,7 +10,7 @@ require_once PATH_PHP . "utilities.php"
     <main role="main" class="container">
 
         <div class="starter-template">
-            <h1>Computing Baiscs - File Permissions</h1>
+            <h1>Computing Basics - File Permissions</h1>
             <p class="lead">File permissions are essentially numbers that determine who can manipulate a file or directory.
                 These numbers represent the ability to read, write, and execute. For files, this means literally read the contents,
                 write or append new contents, or execute the contents if the file is executable. For directories, read means open and

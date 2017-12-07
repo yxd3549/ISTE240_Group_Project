@@ -10,7 +10,7 @@ require_once PATH_PHP . "utilities.php"
     <main role="main" class="container">
 
         <div class="starter-template">
-            <h1>Computing Baiscs - Directory structure</h1>
+            <h1>Computing Basics - Directory structure</h1>
             <p class="lead">All unix files are together in what’s known as a “directory structure”. This structure is like a
                 family tree of “directories”, or what is commonly called a file (this is a common mistake, a DIRECTORY is what
                 FILES are stored in!). Unix varies from other popular operating systems like Windows as, instead of showing different

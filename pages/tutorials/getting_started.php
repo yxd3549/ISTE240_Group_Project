@@ -99,6 +99,7 @@
             require_once PATH_PHP . "next.php";
             ?>
         </div>
+
     </main><!-- /.container -->
 
 <?php
