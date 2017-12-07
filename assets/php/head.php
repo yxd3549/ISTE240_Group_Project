@@ -10,6 +10,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="<?=URL_CSS?>bootstrap.css" rel="stylesheet">
+    <link rel="icon" href="<?=URL_MEDIA?>logoFav.ico" type="image/x-icon">
 
     <!-- Custom styles for this template -->
     <link href="<?=URL_CSS?>style.css" rel="stylesheet">
@@ -62,7 +63,6 @@
                     <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/file_permissions_quiz.php">File Permissions Quiz</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/getting_started_quiz.php">Getting Started Quiz</a>
                     <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/shell_scripting_quiz.php">Shell Scripting Quiz</a>
-                    <a class="dropdown-item" href="<?=URL_PAGES?>quizzes/tarballs_quiz.php">Tarballs Quiz</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
