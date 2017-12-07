@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="Serenity">
+  <component name="PublishConfigData" serverName="serenity">
     <serverData>
-      <paths name="Serenity">
+      <paths name="serenity">
         <serverdata>
           <mappings>
             <mapping deploy="/Sites" local="$PROJECT_DIR$" web="/~iste240t09" />

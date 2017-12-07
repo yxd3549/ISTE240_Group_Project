@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="13f7e181-b046-43d9-835f-e7d0a703bdb1" name="Serenity" url="http://serenity.ist.rit.edu">
+      <webServer id="10362067-0145-49c6-a14b-34940136a2cb" name="serenity" url="http://serenity.ist.rit.edu">
         <fileTransfer host="serenity.ist.rit.edu" port="22" rootFolder="/home/iste240t09" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
